@@ -1,14 +1,7 @@
-Fix schematic and pcb not consistent
-Swap comparator input (Vref en inj current)
+
+
+PCB
 Lineup all components more nicely
-Add leds for inj output
-Remove leds for power 12V
+Fix schematic and pcb not consistent
 Add cooling pads to transistors
-Make 5volt regulator smd version
-Remove safety zener 5V
-Smaller diodes for ref voltage
-REF voltage testpoints needed (with filter)
-REf PWM led to visually see what the setpoint is
-Capacitors on 12V to reduce peak currents and feedback
-
-
+fix connector footprints to phoenix style
