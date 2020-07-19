@@ -15,7 +15,7 @@
 14;"TP2";"TestPoint_Pad_1.0x1.0mm";1;"HoldTP";;;
 15;"TP1";"TestPoint_Pad_1.0x1.0mm";1;"PeakTP";;;
 16;"R8";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"10k";;;
-17;"C10,C6,C9,C7";"C_0603_1608Metric_Pad1.05x0.95mm_HandSolder";4;"220nf";;;
+17;"C9,C5,C8,C6";"C_0603_1608Metric_Pad1.05x0.95mm_HandSolder";4;"220nf";;;
 18;"C3,C2,C1";"CP_Elec_10x12.5";3;"1mF";;;
 19;"U1";"SO-14_5.3x10.2mm_P1.27mm";1;"74LS32";;;
 20;"D5";"LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"BLUE";;;
@@ -26,7 +26,7 @@
 25;"Q3,Q12,Q11,Q4";"SOT-23_Handsoldering";4;"2N7002";;;
 26;"F1";"Fuse_Blade_ATO_directSolder";1;"Fuse";;;
 27;"F2";"Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder";1;"PPTC 16V2A";;;
-28;"C8,C5";"C_1206_3216Metric_Pad1.42x1.75mm_HandSolder";2;"10uf";;;
+28;"C7,C4";"C_1206_3216Metric_Pad1.42x1.75mm_HandSolder";2;"10uf";;;
 29;"U4";"SOT-23-6_Handsoldering";1;"LTC6992";;;
 30;"U2";"SO-14_5.3x10.2mm_P1.27mm";1;"LM2901";;;
 31;"RV1,RV2";"Potentiometer_Bourns_3314R-1_Vertical_Hole";2;"R_POT_Small";;;

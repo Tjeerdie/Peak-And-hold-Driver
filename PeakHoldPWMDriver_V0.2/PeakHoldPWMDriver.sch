@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Speeduino_base-eagle-import:CERAMIC-220NF-25V-10%-X7R(0603) C9
+L Speeduino_base-eagle-import:CERAMIC-220NF-25V-10%-X7R(0603) C8
 U 1 1 3AC10700
 P 4150 3200
-F 0 "C9" H 4000 3250 42  0000 L BNN
+F 0 "C8" H 4000 3250 42  0000 L BNN
 F 1 "220nf" H 4000 3100 42  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4150 3200 50  0001 C CNN
 F 3 "" H 4150 3200 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "" H 4150 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Speeduino_base-eagle-import:CERAMIC-10UF-25V-10%-X5R(1206) C8
+L Speeduino_base-eagle-import:CERAMIC-10UF-25V-10%-X5R(1206) C7
 U 1 1 603F19F2
 P 3550 3190
-F 0 "C8" H 3400 3240 42  0000 L BNN
+F 0 "C7" H 3400 3240 42  0000 L BNN
 F 1 "10uf" H 3400 3090 42  0000 L BNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3550 3190 50  0001 C CNN
 F 3 "" H 3550 3190 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "" H 1500 3050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Speeduino_base-eagle-import:CERAMIC-220NF-25V-10%-X7R(0603) C7
+L Speeduino_base-eagle-import:CERAMIC-220NF-25V-10%-X7R(0603) C6
 U 1 1 6187B1B6
 P 2600 3250
-F 0 "C7" H 2450 3300 42  0000 L BNN
+F 0 "C6" H 2450 3300 42  0000 L BNN
 F 1 "220nf" H 2450 3150 42  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2600 3250 50  0001 C CNN
 F 3 "" H 2600 3250 50  0001 C CNN
@@ -103,10 +103,10 @@ $EndComp
 Text GLabel 3100 3400 3    50   Input ~ 0
 PWR_GND
 $Comp
-L Speeduino_base-eagle-import:CERAMIC-10UF-25V-10%-X5R(1206) C5
+L Speeduino_base-eagle-import:CERAMIC-10UF-25V-10%-X5R(1206) C4
 U 1 1 20CCEB9A
 P 2350 3250
-F 0 "C5" H 2200 3300 42  0000 L BNN
+F 0 "C4" H 2200 3300 42  0000 L BNN
 F 1 "10uf" H 2200 3150 42  0000 L BNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2350 3250 50  0001 C CNN
 F 3 "" H 2350 3250 50  0001 C CNN
@@ -939,10 +939,10 @@ Wire Wire Line
 Wire Wire Line
 	7700 5800 7550 5800
 $Comp
-L Speeduino_base-eagle-import:CERAMIC-220NF-25V-10%-X7R(0603) C6
+L Speeduino_base-eagle-import:CERAMIC-220NF-25V-10%-X7R(0603) C5
 U 1 1 5F4D9CF0
 P 2500 7000
-F 0 "C6" H 2350 7050 42  0000 L BNN
+F 0 "C5" H 2350 7050 42  0000 L BNN
 F 1 "220nf" H 2350 6900 42  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2500 7000 50  0001 C CNN
 F 3 "" H 2500 7000 50  0001 C CNN
@@ -1926,10 +1926,10 @@ F 3 "~" H 5200 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Speeduino_base-eagle-import:CERAMIC-220NF-25V-10%-X7R(0603) C10
+L Speeduino_base-eagle-import:CERAMIC-220NF-25V-10%-X7R(0603) C9
 U 1 1 5F2FE71A
 P 5350 6800
-F 0 "C10" H 5200 6850 42  0000 L BNN
+F 0 "C9" H 5200 6850 42  0000 L BNN
 F 1 "220nf" H 5200 6700 42  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5350 6800 50  0001 C CNN
 F 3 "" H 5350 6800 50  0001 C CNN
