@@ -1,5 +1,11 @@
 # Project PWM peak and hold injector driver
 Project peak and hold became in excistance because I could not find a open source PWM peak and hold injector driver for low-Z injectors. This one is specifically tailored for LPG injectors but could be used for any other low-Z injectors like throttle body injectors and other high flow injectors. 
+specifications:
+Max peak current 6A
+Max continuous hold current 3A
+Hold PWM duty cycle 5%-95%
+PWM freqency 10khz
+
 
 ## Simulation	
 A LTspice simulation of PWM peak and hold drivers is also in the LTspice folder. It is interresting to see the wave forms used and the current thru the coil. This also shows the maximum voltage level expected on the mosfets. This can be significant voltage levels depdending on the clamping voltage.  
