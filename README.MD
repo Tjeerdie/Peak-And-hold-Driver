@@ -8,7 +8,7 @@ A LTspice simulation of PWM peak and hold drivers is also in the LTspice folder.
 Check out the PeakHoldPWMDriver_V0.1\photos folder to see the real thing! 
 
 ## Getting Started
-Well there is no getting started because this board is not fully tested and debugged yet. Current status of design still some mistake in V0.1 so after confirming it works as designed with some preliminary chances and wiring version V0.2 should work as expected. When it is ready a getting started will be introduced. 
+Well there is no getting started because this board is not fully tested and debugged yet. There has been a small mistake in the design of V0.1. After some debug wiring a channel is actually working nearly as expected. V0.2 is underway and will be tested shortly. 
 
 ## License
 This project is licensed under the GNU GENERAL PUBLIC LICENSE - see the [LICENSE.md](LICENSE.md) file for details
