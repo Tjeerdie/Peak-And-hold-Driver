@@ -2,10 +2,9 @@ Questionable use of curly braces in ".model sir870adp vdmos(rg=3 vto=2.9 rd=3.2m
     Error: undefined symbol in: "[m]"
 Circuit: * Z:\home\hoogendijkta\Documents\hobby\speeduino\KicadPCB\Peak-And-hold-Driver\LTspice simulations\PWM low-z injector.asc
 
+WARNING: Less than two connections to node 5V.  This node is used by R1.
 WARNING: Less than two connections to node PWM.  This node is used by V2.
 WARNING: Less than two connections to node TEST_DC.  This node is used by A6.
-Instance "m:u4:2": Length shorter than recommended for a level 3 MOSFET.
-Instance "m:u3:2": Length shorter than recommended for a level 3 MOSFET.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
 Gmin = 10
@@ -76,33 +75,52 @@ Changing Tseed to 4.88281e-008
 Changing Tseed to 4.88281e-012
 Changing Tseed to 4.88281e-007
 Changing Tseed to 4.88281e-013
+Heightened Def Con from 8.00001e-007 to 8.02001e-007
+Heightened Def Con from 6.47719e-006 to 6.4772e-006
+Heightened Def Con from 6.4772e-006 to 6.4772e-006
+Heightened Def Con from 1.00018e-005 to 1.00018e-005
+Heightened Def Con from 0.00709096 to 0.00709096
+Heightened Def Con from 0.00757102 to 0.00757102
+Heightened Def Con from 0.0076054 to 0.0076054
+Heightened Def Con from 0.00773104 to 0.00773104
+Heightened Def Con from 0.00789106 to 0.00789106
+Heightened Def Con from 0.00789106 to 0.00789107
+Heightened Def Con from 0.0088512 to 0.0088512
 Heightened Def Con from 0.00901122 to 0.00901122
-Heightened Def Con from 0.0174924 to 0.0174924
-Heightened Def Con from 0.0207272 to 0.0207272
-Heightened Def Con from 0.0230002 to 0.0230002
-Heightened Def Con from 0.0378151 to 0.0378151
-Heightened Def Con from 0.0378151 to 0.0378151
-Heightened Def Con from 0.0392553 to 0.0392553
-Heightened Def Con from 0.0392553 to 0.0392553
-Heightened Def Con from 0.0430002 to 0.0430002
-Heightened Def Con from 0.0468107 to 0.0468107
+Heightened Def Con from 0.00917124 to 0.00917124
+Heightened Def Con from 0.0101314 to 0.0101314
+Heightened Def Con from 0.0112515 to 0.0112515
+Heightened Def Con from 0.0130118 to 0.0130118
+Heightened Def Con from 0.0130461 to 0.0130461
+Heightened Def Con from 0.0133318 to 0.0133318
+Heightened Def Con from 0.0133318 to 0.0133318
+Heightened Def Con from 0.0138462 to 0.0138462
+Heightened Def Con from 0.026648 to 0.026648
+Heightened Def Con from 0.0328544 to 0.0328544
+Heightened Def Con from 0.0328544 to 0.0328544
+Heightened Def Con from 0.0342946 to 0.0342946
+Heightened Def Con from 0.0368441 to 0.0368441
+Heightened Def Con from 0.0456562 to 0.0456562
+Heightened Def Con from 0.0456905 to 0.0456905
+Heightened Def Con from 0.049211 to 0.049211
+Heightened Def Con from 0.0498511 to 0.0498511
 
-Date: Sun Jul 19 12:30:45 2020
-Total elapsed time: 23.746 seconds.
+Date: Wed Jul 29 20:20:42 2020
+Total elapsed time: 23.440 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 457180
-traniter = 455426
-tranpoints = 126385
-accept = 94421
-rejected = 31968
-matrix size = 88
-fillins = 9
+totiter = 462447
+traniter = 460687
+tranpoints = 125373
+accept = 93487
+rejected = 31909
+matrix size = 95
+fillins = 29
 solver = Normal
-Thread vector: 46.6/37.4[2] 19.2/15.9[2] 7.6/5.9[2] 0.8/2.6[1]  2592/500
-Matrix Compiler1: 4.61 KB object code size  3.2/2.1/[1.1]
-Matrix Compiler2: off  [2.4]/3.4/3.7
+Thread vector: 45.3/35.4[2] 18.0/15.1[2] 7.9/5.6[2] 0.8/2.4[1]  2592/500
+Matrix Compiler1: 5.45 KB object code size  3.7/2.7/[1.2]
+Matrix Compiler2: off  [3.4]/4.1/3.9
 
 
