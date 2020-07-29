@@ -694,26 +694,22 @@ PWR_GND
 $Comp
 L Device:R_Small R2
 U 1 1 5F079FC0
-P 1350 6300
-F 0 "R2" H 1409 6346 50  0000 L CNN
-F 1 "470R" H 1409 6255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1350 6300 50  0001 C CNN
-F 3 "~" H 1350 6300 50  0001 C CNN
-	1    1350 6300
-	1    0    0    -1  
+P 1050 6800
+F 0 "R2" H 1109 6846 50  0000 L CNN
+F 1 "470R" H 1109 6755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1050 6800 50  0001 C CNN
+F 3 "~" H 1050 6800 50  0001 C CNN
+	1    1050 6800
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1350 6400 1350 6450
-Text GLabel 1250 6150 0    50   Input ~ 0
+	1050 6700 1050 6650
+Text GLabel 1150 6950 2    50   Input ~ 0
 5V
 Wire Wire Line
-	1250 6150 1350 6150
+	1150 6950 1050 6950
 Wire Wire Line
-	1350 6150 1350 6200
-Wire Wire Line
-	1350 6650 1350 6700
-Wire Wire Line
-	1350 6700 1250 6700
+	1050 6950 1050 6900
 $Comp
 L Device:R_POT_Small RV1
 U 1 1 5F079FCD
@@ -726,21 +722,13 @@ F 3 "~" H 1700 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 6450 1700 6450
-Connection ~ 1350 6450
-Wire Wire Line
-	1350 6700 1550 6700
-Wire Wire Line
-	1700 6700 1700 6650
-Connection ~ 1350 6700
-Wire Wire Line
 	1800 6600 1800 6550
 $Comp
 L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R3
 U 1 1 5F087B80
 P 1750 6750
 F 0 "R3" H 1600 6800 42  0000 L BNN
-F 1 "500k" H 1600 6650 42  0000 L BNN
+F 1 "470k" H 1600 6650 42  0000 L BNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1750 6750 50  0001 C CNN
 F 3 "" H 1750 6750 50  0001 C CNN
 	1    1750 6750
@@ -750,13 +738,6 @@ Wire Wire Line
 	1950 6700 1900 6700
 Wire Wire Line
 	1900 6700 1900 6750
-Wire Wire Line
-	1600 6750 1550 6750
-Wire Wire Line
-	1550 6750 1550 6700
-Connection ~ 1550 6700
-Wire Wire Line
-	1550 6700 1700 6700
 $Comp
 L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R4
 U 1 1 5F0A3829
@@ -1155,13 +1136,13 @@ Text GLabel 1500 4350 2    50   Input ~ 0
 $Comp
 L Device:D_Schottky_Small D1
 U 1 1 5F079FBA
-P 1350 6550
-F 0 "D1" H 1350 6437 50  0000 C CNN
-F 1 "BAV103" V 1395 6618 50  0001 L CNN
-F 2 "Diode_SMD:D_MiniMELF" V 1350 6550 50  0001 C CNN
-F 3 "~" V 1350 6550 50  0001 C CNN
-	1    1350 6550
-	0    -1   -1   0   
+P 1050 6550
+F 0 "D1" H 1050 6437 50  0000 C CNN
+F 1 "BAV103" V 1095 6618 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" V 1050 6550 50  0001 C CNN
+F 3 "~" V 1050 6550 50  0001 C CNN
+	1    1050 6550
+	0    1    1    0   
 $EndComp
 $Comp
 L 74xx:74LS32 U1
@@ -1286,7 +1267,7 @@ F 3 "~" V 3450 6750 50  0001 C CNN
 $EndComp
 Text GLabel 3050 6600 2    50   Output ~ 0
 PWM
-Text GLabel 3900 6750 2    50   Output ~ 0
+Text GLabel 3800 6750 0    50   Output ~ 0
 VREF
 Connection ~ 3450 6900
 Wire Wire Line
@@ -1294,18 +1275,16 @@ Wire Wire Line
 Wire Wire Line
 	3450 6900 3800 6900
 Connection ~ 3450 6650
-Wire Wire Line
-	3450 6650 3800 6650
 $Comp
 L Device:R_POT_Small RV2
 U 1 1 5EDE3906
-P 3800 6750
-F 0 "RV2" H 3741 6796 50  0000 R CNN
-F 1 "5K" H 3741 6705 50  0000 R CNN
-F 2 "Potentiometer_SMD:Potentiometer_Bourns_3314R-1_Vertical_Hole" H 3800 6750 50  0001 C CNN
-F 3 "~" H 3800 6750 50  0001 C CNN
-	1    3800 6750
-	1    0    0    -1  
+P 3900 6750
+F 0 "RV2" H 3841 6796 50  0000 R CNN
+F 1 "5K" H 3841 6705 50  0000 R CNN
+F 2 "Potentiometer_SMD:Potentiometer_Bourns_3314R-1_Vertical_Hole" H 3900 6750 50  0001 C CNN
+F 3 "~" H 3900 6750 50  0001 C CNN
+	1    3900 6750
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	3450 6900 3350 6900
@@ -1424,7 +1403,7 @@ Text GLabel 1700 7350 0    50   Input ~ 0
 PWR_GND
 Text GLabel 3350 6900 0    50   Input ~ 0
 PWR_GND
-Text GLabel 1250 6700 0    50   Input ~ 0
+Text GLabel 1050 6350 1    50   Input ~ 0
 PWR_GND
 Text GLabel 4400 5200 2    50   Input ~ 0
 PWR_GND
@@ -2348,4 +2327,26 @@ Wire Wire Line
 Connection ~ 10000 4500
 Wire Wire Line
 	10000 4500 10050 4500
+Wire Wire Line
+	3450 6650 3900 6650
+Wire Wire Line
+	3800 6850 3900 6850
+Text GLabel 1550 6800 3    50   Input ~ 0
+PWR_GND
+Wire Wire Line
+	1550 6800 1550 6750
+Wire Wire Line
+	1550 6750 1600 6750
+Wire Wire Line
+	1050 6350 1050 6400
+Wire Wire Line
+	1050 6400 1700 6400
+Wire Wire Line
+	1700 6400 1700 6450
+Connection ~ 1050 6400
+Wire Wire Line
+	1050 6400 1050 6450
+Wire Wire Line
+	1050 6650 1700 6650
+Connection ~ 1050 6650
 $EndSCHEMATC
