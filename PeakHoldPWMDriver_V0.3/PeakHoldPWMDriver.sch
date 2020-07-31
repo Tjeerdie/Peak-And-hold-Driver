@@ -466,7 +466,7 @@ Wire Wire Line
 	6200 1600 6200 1350
 Wire Wire Line
 	6200 1150 6200 1100
-Text GLabel 5650 1800 1    50   Input ~ 0
+Text GLabel 5900 1800 1    50   Input ~ 0
 inv_INJ1
 Wire Wire Line
 	7550 3700 7450 3700
@@ -477,7 +477,7 @@ Wire Wire Line
 	6250 4400 6250 4150
 Wire Wire Line
 	6250 3950 6250 3900
-Text GLabel 5800 4600 1    50   Input ~ 0
+Text GLabel 5950 4600 1    50   Input ~ 0
 inv_INJ3
 Text GLabel 10050 1950 2    50   Input ~ 0
 PWR_GND
@@ -494,14 +494,7 @@ Wire Wire Line
 	9150 1150 9150 1100
 Wire Wire Line
 	9150 1100 9750 1100
-Wire Wire Line
-	8850 1750 8850 1800
-Wire Wire Line
-	8850 1800 8950 1800
-Wire Wire Line
-	8850 1800 8750 1800
-Connection ~ 8850 1800
-Text GLabel 8750 1800 1    50   Input ~ 0
+Text GLabel 8950 1800 1    50   Input ~ 0
 inv_INJ2
 Text GLabel 10250 4850 2    50   Input ~ 0
 PWR_GND
@@ -514,7 +507,7 @@ Wire Wire Line
 	9350 4500 9350 4250
 Wire Wire Line
 	9350 4050 9350 4000
-Text GLabel 8950 4700 1    50   Input ~ 0
+Text GLabel 9100 4700 1    50   Input ~ 0
 inv_INJ4
 Text GLabel 10450 900  2    50   Input ~ 0
 VBAT
@@ -1375,8 +1368,6 @@ Text GLabel 1100 1300 0    50   Output ~ 0
 PWR_GND
 Text GLabel 5000 2300 3    50   Input ~ 0
 PWR_GND
-Text GLabel 5200 2300 3    50   Input ~ 0
-INJ1
 Text GLabel 1100 1200 0    50   Input ~ 0
 INJ1
 Text GLabel 1100 1100 0    50   Input ~ 0
@@ -1764,7 +1755,7 @@ Connection ~ 1850 7350
 Wire Wire Line
 	1850 7350 2650 7350
 Wire Wire Line
-	5800 4600 6050 4600
+	5800 4600 5850 4600
 Wire Wire Line
 	5650 1800 6000 1800
 $Comp
@@ -1800,8 +1791,6 @@ Wire Wire Line
 Wire Wire Line
 	5400 2200 5400 2300
 Wire Wire Line
-	5400 1800 5650 1800
-Wire Wire Line
 	5200 2000 5200 2100
 Wire Wire Line
 	5200 1900 5200 2000
@@ -1817,7 +1806,6 @@ F 3 "" H 5400 2000 50  0001 C CNN
 	1    5400 2000
 	1    0    0    -1  
 $EndComp
-Connection ~ 5650 1800
 Wire Wire Line
 	5000 1700 5000 1650
 Wire Wire Line
@@ -1830,7 +1818,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 4700 8950 5150
 Wire Wire Line
-	8950 4700 9150 4700
+	8950 4700 9000 4700
 $Comp
 L Device:R_Small R21
 U 1 1 5F47D363
@@ -1842,7 +1830,6 @@ F 3 "~" H 5400 1700 50  0001 C CNN
 	1    5400 1700
 	1    0    0    -1  
 $EndComp
-Connection ~ 5400 1800
 Wire Wire Line
 	5400 1600 5250 1600
 Wire Wire Line
@@ -1862,7 +1849,7 @@ F 3 "~" H 5200 2200 50  0001 C CNN
 $EndComp
 Text GLabel 5150 5100 3    50   Input ~ 0
 PWR_GND
-Text GLabel 5350 5100 3    50   Input ~ 0
+Text GLabel 5350 5150 3    50   Input ~ 0
 INJ3
 $Comp
 L Diode:BAT54S D2
@@ -1894,8 +1881,6 @@ Wire Wire Line
 	5350 4400 5350 4450
 Wire Wire Line
 	5550 5000 5550 5100
-Wire Wire Line
-	5550 4600 5800 4600
 Wire Wire Line
 	5350 4800 5350 4900
 Wire Wire Line
@@ -1930,7 +1915,6 @@ F 3 "~" H 5550 4500 50  0001 C CNN
 	1    5550 4500
 	1    0    0    -1  
 $EndComp
-Connection ~ 5550 4600
 Wire Wire Line
 	5550 4400 5400 4400
 Wire Wire Line
@@ -1948,7 +1932,6 @@ F 3 "~" H 5350 5000 50  0001 C CNN
 	1    5350 5000
 	1    0    0    -1  
 $EndComp
-Connection ~ 5800 4600
 Text GLabel 8300 5200 3    50   Input ~ 0
 PWR_GND
 Text GLabel 8500 5200 3    50   Input ~ 0
@@ -1984,8 +1967,6 @@ Wire Wire Line
 Wire Wire Line
 	8700 5100 8700 5200
 Wire Wire Line
-	8700 4700 8950 4700
-Wire Wire Line
 	8500 4900 8500 5000
 Wire Wire Line
 	8500 4800 8500 4900
@@ -2019,7 +2000,6 @@ F 3 "~" H 8700 4600 50  0001 C CNN
 	1    8700 4600
 	1    0    0    -1  
 $EndComp
-Connection ~ 8700 4700
 Wire Wire Line
 	8700 4500 8550 4500
 Wire Wire Line
@@ -2037,12 +2017,11 @@ F 3 "~" H 8500 5100 50  0001 C CNN
 	1    8500 5100
 	1    0    0    -1  
 $EndComp
-Connection ~ 8950 4700
 Wire Wire Line
 	8750 1800 8750 2300
 Text GLabel 8100 2300 3    50   Input ~ 0
 PWR_GND
-Text GLabel 8300 2300 3    50   Input ~ 0
+Text GLabel 8300 2350 3    50   Input ~ 0
 INJ2
 $Comp
 L Diode:BAT54S D11
@@ -2074,8 +2053,6 @@ Wire Wire Line
 	8300 1600 8300 1650
 Wire Wire Line
 	8500 2200 8500 2300
-Wire Wire Line
-	8500 1800 8750 1800
 Wire Wire Line
 	8300 2000 8300 2100
 Wire Wire Line
@@ -2110,25 +2087,12 @@ F 3 "~" H 8500 1700 50  0001 C CNN
 	1    8500 1700
 	1    0    0    -1  
 $EndComp
-Connection ~ 8500 1800
 Wire Wire Line
 	8500 1600 8350 1600
 Wire Wire Line
 	8350 1600 8350 1650
 Wire Wire Line
 	8350 1650 8300 1650
-$Comp
-L Device:R_Small R32
-U 1 1 5F5596E1
-P 8300 2200
-F 0 "R32" H 8359 2246 50  0000 L CNN
-F 1 "1K" H 8359 2155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8300 2200 50  0001 C CNN
-F 3 "~" H 8300 2200 50  0001 C CNN
-	1    8300 2200
-	1    0    0    -1  
-$EndComp
-Connection ~ 8750 1800
 $Comp
 L Device:R_Small R39
 U 1 1 5F5A3767
@@ -2196,17 +2160,6 @@ F 3 "" H 6600 4100 50  0001 C CNN
 $EndComp
 Connection ~ 6750 4100
 $Comp
-L Device:D_Zener_Small D14
-U 1 1 5F6A39A6
-P 6600 4250
-F 0 "D14" H 6600 4457 50  0000 C CNN
-F 1 "MM3Z47V" H 6600 4366 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323" V 6600 4250 50  0001 C CNN
-F 3 "~" V 6600 4250 50  0001 C CNN
-	1    6600 4250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Diode:BAV19 D15
 U 1 1 5F6E7FDD
 P 6550 1300
@@ -2215,17 +2168,6 @@ F 1 "BAV103" H 6550 1426 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 6550 1125 50  0001 C CNN
 F 3 "" H 6550 1300 50  0001 C CNN
 	1    6550 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Zener_Small D13
-U 1 1 5F6E7FE3
-P 6550 1450
-F 0 "D13" H 6550 1657 50  0000 C CNN
-F 1 "MM3Z47V" H 6550 1566 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323" V 6550 1450 50  0001 C CNN
-F 3 "~" V 6550 1450 50  0001 C CNN
-	1    6550 1450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2250,22 +2192,9 @@ F 3 "" H 9650 4200 50  0001 C CNN
 	1    9650 4200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D_Zener_Small D18
-U 1 1 5F73AD7B
-P 9650 4350
-F 0 "D18" V 9604 4420 50  0000 L CNN
-F 1 "MM3Z47V" H 9695 4420 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323" V 9650 4350 50  0001 C CNN
-F 3 "~" V 9650 4350 50  0001 C CNN
-	1    9650 4350
-	1    0    0    -1  
-$EndComp
 Connection ~ 9750 1300
 Connection ~ 6700 1300
 Connection ~ 9800 4200
-Wire Wire Line
-	6650 1450 6850 1450
 Wire Wire Line
 	6850 1450 6850 1600
 Connection ~ 6850 1600
@@ -2277,25 +2206,12 @@ Wire Wire Line
 	6400 1300 6400 1450
 Wire Wire Line
 	6300 1600 6600 1600
-$Comp
-L Device:D_Zener_Small D17
-U 1 1 5F702F0E
-P 9600 1450
-F 0 "D17" H 9600 1657 50  0000 C CNN
-F 1 "MM3Z47V" H 9600 1566 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323" V 9600 1450 50  0001 C CNN
-F 3 "~" V 9600 1450 50  0001 C CNN
-	1    9600 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9400 1600 9550 1600
 Wire Wire Line
 	9450 1450 9500 1450
 Wire Wire Line
 	9450 1300 9450 1450
-Wire Wire Line
-	9700 1450 9800 1450
 Wire Wire Line
 	9800 1450 9800 1600
 Connection ~ 9800 1600
@@ -2315,13 +2231,9 @@ Wire Wire Line
 Wire Wire Line
 	6450 4400 6450 5000
 Wire Wire Line
-	6700 4250 6900 4250
-Wire Wire Line
 	9500 4350 9550 4350
 Wire Wire Line
 	9500 4200 9500 4350
-Wire Wire Line
-	9750 4350 10000 4350
 Wire Wire Line
 	10000 4350 10000 4500
 Connection ~ 10000 4500
@@ -2349,4 +2261,157 @@ Wire Wire Line
 Wire Wire Line
 	1050 6650 1700 6650
 Connection ~ 1050 6650
+$Comp
+L Diode:BZX84Cxx D13
+U 1 1 5F25156C
+P 6600 1450
+F 0 "D13" H 6600 1667 50  0000 C CNN
+F 1 "BZX84C56" H 6600 1576 50  0000 C CNN
+F 2 "Diode_SMD:D_SOT-23_ANK" H 6600 1275 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 6600 1450 50  0001 C CNN
+	1    6600 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 1450 6850 1450
+$Comp
+L Diode:BZX84Cxx D17
+U 1 1 5F292622
+P 9650 1450
+F 0 "D17" H 9650 1667 50  0000 C CNN
+F 1 "BZX84C56" H 9650 1576 50  0000 C CNN
+F 2 "Diode_SMD:D_SOT-23_ANK" H 9650 1275 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 9650 1450 50  0001 C CNN
+	1    9650 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BZX84Cxx D14
+U 1 1 5F2A1B1C
+P 6650 4250
+F 0 "D14" H 6650 4467 50  0000 C CNN
+F 1 "BZX84C56" H 6650 4376 50  0000 C CNN
+F 2 "Diode_SMD:D_SOT-23_ANK" H 6650 4075 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 6650 4250 50  0001 C CNN
+	1    6650 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BZX84Cxx D18
+U 1 1 5F2A3132
+P 9700 4350
+F 0 "D18" H 9700 4567 50  0000 C CNN
+F 1 "BZX84C56" H 9700 4476 50  0000 C CNN
+F 2 "Diode_SMD:D_SOT-23_ANK" H 9700 4175 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 9700 4350 50  0001 C CNN
+	1    9700 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 4250 6900 4250
+Wire Wire Line
+	9850 4350 10000 4350
+Text GLabel 5200 2350 3    50   Input ~ 0
+INJ1
+$Comp
+L Device:R_Small R32
+U 1 1 5F5596E1
+P 8300 2200
+F 0 "R32" H 8359 2246 50  0000 L CNN
+F 1 "1K" H 8359 2155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8300 2200 50  0001 C CNN
+F 3 "~" H 8300 2200 50  0001 C CNN
+	1    8300 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2300 5200 2350
+Wire Wire Line
+	8300 2300 8300 2350
+Wire Wire Line
+	5350 5100 5350 5150
+Wire Wire Line
+	8750 1800 8800 1800
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP2
+U 1 1 5F5DA522
+P 5700 4400
+F 0 "JP2" V 5746 4468 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 5655 4468 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 5700 4400 50  0001 C CNN
+F 3 "~" H 5700 4400 50  0001 C CNN
+	1    5700 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 4600 5700 4600
+Connection ~ 5550 4600
+Wire Wire Line
+	5850 4400 5850 4600
+Connection ~ 5850 4600
+Wire Wire Line
+	5850 4600 6050 4600
+Text GLabel 5700 4200 0    50   Input ~ 0
+INJ3
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP1
+U 1 1 5F632981
+P 5500 1600
+F 0 "JP1" V 5546 1668 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 5455 1668 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 5500 1600 50  0001 C CNN
+F 3 "~" H 5500 1600 50  0001 C CNN
+	1    5500 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP3
+U 1 1 5F634156
+P 8650 1600
+F 0 "JP3" V 8696 1668 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 8605 1668 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 8650 1600 50  0001 C CNN
+F 3 "~" H 8650 1600 50  0001 C CNN
+	1    8650 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP4
+U 1 1 5F635F7F
+P 8850 4500
+F 0 "JP4" V 8896 4568 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 8805 4568 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 8850 4500 50  0001 C CNN
+F 3 "~" H 8850 4500 50  0001 C CNN
+	1    8850 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8850 4700 8700 4700
+Connection ~ 8700 4700
+Wire Wire Line
+	8650 1800 8500 1800
+Connection ~ 8500 1800
+Wire Wire Line
+	5500 1800 5400 1800
+Connection ~ 5400 1800
+Wire Wire Line
+	5650 1600 5650 1800
+Connection ~ 5650 1800
+Wire Wire Line
+	8800 1600 8800 1800
+Connection ~ 8800 1800
+Wire Wire Line
+	8800 1800 8950 1800
+Wire Wire Line
+	9000 4500 9000 4700
+Connection ~ 9000 4700
+Wire Wire Line
+	9000 4700 9150 4700
+Text GLabel 8850 4300 0    50   Input ~ 0
+INJ4
+Text GLabel 8650 1400 0    50   Input ~ 0
+INJ2
+Text GLabel 5500 1400 0    50   Input ~ 0
+INJ1
 $EndSCHEMATC

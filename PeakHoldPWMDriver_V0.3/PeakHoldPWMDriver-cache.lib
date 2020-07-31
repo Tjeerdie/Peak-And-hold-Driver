@@ -359,28 +359,6 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_D_Zener_Small
-#
-DEF Device_D_Zener_Small D 0 10 N N 1 F N
-F0 "D" 0 90 50 H V C CNN
-F1 "Device_D_Zener_Small" 0 -90 50 H V C CNN
-F2 "" 0 0 50 V I C CNN
-F3 "" 0 0 50 V I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 30 0 -30 0 N
-P 3 0 1 10 -10 40 -30 40 -30 -40 N
-P 4 0 1 10 30 40 -30 0 30 -40 30 40 N
-X K 1 -100 0 70 R 50 50 1 1 P
-X A 2 100 0 70 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Device_Fuse
 #
 DEF Device_Fuse F 0 0 N Y 1 F N
@@ -508,6 +486,53 @@ P 2 0 1 0 50 0 -50 0 N
 P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Diode_BZX84Cxx
+#
+DEF Diode_BZX84Cxx D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Diode_BZX84Cxx" 0 -100 50 H V C CNN
+F2 "Diode_SMD:D_SOT-23_ANK" 0 -175 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ D*SOT?23*ANK*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 10 -50 -50 -50 50 -30 50 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Jumper_SolderJumper_3_Bridged12
+#
+DEF Jumper_SolderJumper_3_Bridged12 JP 0 0 Y N 1 F N
+F0 "JP" -100 -100 50 H V C CNN
+F1 "Jumper_SolderJumper_3_Bridged12" 0 110 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*Bridged12*
+$ENDFPLIST
+DRAW
+A -40 0 40 901 -901 0 1 0 N -40 40 -40 -40
+A -40 0 40 901 -901 0 1 0 F -40 40 -40 -40
+A 40 0 40 -899 899 0 1 0 N 40 -40 40 40
+A 40 0 40 -899 899 0 1 0 F 40 -40 40 40
+S -40 20 -20 -20 0 1 0 F
+S -20 40 20 -40 0 1 0 F
+P 2 0 1 0 -100 0 -80 0 N
+P 2 0 1 0 -40 40 -40 -40 N
+P 2 0 1 0 0 -50 0 -40 N
+P 2 0 1 0 40 40 40 -40 N
+P 2 0 1 0 100 0 80 0 N
+X A 1 -200 0 100 R 50 50 1 1 P
+X C 2 0 -150 100 U 50 50 1 1 I
+X B 3 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
