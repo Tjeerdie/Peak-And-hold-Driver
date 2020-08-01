@@ -1,16 +1,14 @@
 # Project PWM peak and hold injector driver
-The peak and hold project started because I could not find an open-source PWM peak and hold injector driver for low-Z injectors.
+The peak and hold project started because I could not find an open-source PWM peak and hold injector driver for low-Z injectors. For low-z injectors normally series resistors are used. But resistors create a lot of heat and are not very adjustable. But i do encourage everyone to use resistors if possible because the results are great and resistors can not break<br/>
 <br/>
-Normally series resistors are used for low-z injectors. But resistors create a lot of heat and are not very adjustable. But i do encourage everyone to use resistors if possible because the results are great and resistors can not break<br/>
-<br/>
-This design is specific to work with LPG injectors but could be used for any other low-Z injectors like TBI type and other high flow injectors.It could even be used for any coil type actuator like relays or valves <br/>
+This design is specific to work with LPG injectors but could be used for any other low-Z injectors like TBI type and other high flow injectors. It could even be used for any coil type actuator like relays or valves <br/>
 
 The design is Kicad. So to see the schematic or to adjust the deisgn to your liking open the Kicad project.<br/>
 
 Latest release is V0.3.<br/>
  __IMPORANT NOTE: Board V0.3 is not tested yet!! Order on your own risk__ <br/>
 
-<br/>__specifications:__<br/>
+__specifications:__
 - Max peak current 6A<br/>
 - Max continuous hold current 3A<br/>
 - Hold PWM duty cycle 5%-60%<br/>
@@ -26,9 +24,9 @@ This section explains all we need to do to setup the board
 3. Assemble the PCB, hand soldering is possible.<br/>
 
 ### Connect the board
-The board is intended to be connected to any ECU that uses a switch to ground for each injector channel. This is the case for most types of ECU. Further down this readme there is a description how to use Microcontroller pins to drive the injectors directly. <br/>
+The board is intended to be connected to any ECU that uses a switch to ground for each injector channel. This is the case for most types of ECU. Further down this readme there is a description how to use microcontroller pins to drive the injectors directly. <br/>
 
-<br/>__Connector J1__
+__Connector J1__
 1. injector channel 1 IN<br/>
 2. injector channel 2 IN<br/>
 3. injector channel 3 IN<br/>
@@ -36,7 +34,7 @@ The board is intended to be connected to any ECU that uses a switch to ground fo
 5. Power - <br/>
 6. Power + (14.8V switched with ignition switch)<br/>
 
-<br/>__Connector J2__
+__Connector J2__
 1. inj channel 1 +<br/>
 2. inj channel 1 -<br/>
 3. inj channel 2 +<br/>
@@ -50,14 +48,14 @@ Power on the board. Led must be lit when powered.<br/>
 
 ### Set the PEAK current
 1. Measure __TP1__ and use __RV2__ to set to value needed. 100mv = 1A<br/>
-2. Make sure this PEAK current is not too close to the maximum current. If that is the case you run the risk the peak current is never reached. Max peak current = 10.0[V] / R-inj[Ohm]<br/>
+2. Make sure this PEAK current is not too close to the maximum current. If that is the case you run the risk the peak current is never reached and the HOLD current is never set. Max peak current = 10.0[V] / R-inj[Ohm]<br/>
 
 ### Set the HOLD current
-1. Measure the resistance of the injector(s) per channel (R-inj). <br/>
-2. Find the hold current needed. usually about 50% to 25% of the peak current would work<br/>
-3. Calculate the duty cycle needed using: ((R-inj + 0.25)* HoldCurrent)/2,4<br/>
-4. Measure __TP2__ and use __RV1__ to set it to voltage calculated in step 2.<br/>
-5. If it is possible in your setup or on a bench, connect __injector channel 1 IN__ to the __Power -__ use a multi-meter in series with your connected injector on channel 1 to measure the current. This must be close the the set current. If not adjust __RV1__ <br/>
+1. Measure the resistance of the injector(s) per channel (R-inj)[Ohm]. <br/>
+2. Find the hold current needed for the injector in the datasheet. Usually about 50% to 25% of the peak current would be enough<br/>
+3. Calculate the duty cycle needed using: ((R-inj + 0.20)* HoldCurrent)/2,4<br/>
+4. Measure __TP2__ and use __RV1__ to set it to voltage calculated in step 3.<br/>
+5. If it is possible in your setup or on a bench, connect __injector channel 1 IN__ to the __Power -__ use a multi-meter in series with your connected injector on channel 1 to measure the current. This must be close the the set current. If this is not correct adjust __RV1__ accordingly <br/>
 
 ### Direct microcontroller input
 It is possible to use the board directly with an microcontroller. (non inverted inputs) The board inputs are 3.3V and 5V safe.<br/> 
