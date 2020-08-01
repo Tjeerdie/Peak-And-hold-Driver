@@ -206,7 +206,7 @@ P 7000 1100
 F 0 "Q5" H 7205 1100 50  0000 L CNN
 F 1 "TSM2309" H 7205 1055 50  0001 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 7200 1025 50  0001 L CIN
-F 3 "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" H 7000 1100 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/395/TSM2309_A15-1116136.pdf" H 7000 1100 50  0001 L CNN
 	1    7000 1100
 	1    0    0    -1  
 $EndComp
@@ -260,7 +260,7 @@ U 1 1 5F338026
 P 9350 4700
 F 0 "Q12" H 9464 4700 42  0000 L CNN
 F 1 "2N7002" H 9464 4661 42  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 9350 4700 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9350 4700 50  0001 C CNN
 F 3 "" H 9350 4700 50  0001 C CNN
 	1    9350 4700
 	1    0    0    -1  
@@ -326,7 +326,7 @@ U 1 1 5F337FD8
 P 9150 1800
 F 0 "Q11" H 9264 1800 42  0000 L CNN
 F 1 "2N7002" H 9264 1761 42  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 9150 1800 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9150 1800 50  0001 C CNN
 F 3 "" H 9150 1800 50  0001 C CNN
 	1    9150 1800
 	1    0    0    -1  
@@ -392,7 +392,7 @@ U 1 1 5F250B24
 P 6250 4600
 F 0 "Q4" H 6364 4600 42  0000 L CNN
 F 1 "2N7002" H 6364 4561 42  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6250 4600 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6250 4600 50  0001 C CNN
 F 3 "" H 6250 4600 50  0001 C CNN
 	1    6250 4600
 	1    0    0    -1  
@@ -436,8 +436,8 @@ U 1 1 5F4BDA34
 P 6200 1800
 F 0 "Q3" H 6314 1800 42  0000 L CNN
 F 1 "2N7002" H 6314 1761 42  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6200 1800 50  0001 C CNN
-F 3 "" H 6200 1800 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6200 1800 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 6200 1800 50  0001 C CNN
 	1    6200 1800
 	1    0    0    -1  
 $EndComp
@@ -1657,17 +1657,6 @@ F 3 "~" V 7300 900 50  0001 C CNN
 	1    7300 900 
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:D_Schottky_Small D3
-U 1 1 5F3ED788
-P 2050 3000
-F 0 "D3" H 2050 2887 50  0000 C CNN
-F 1 "1N4007" V 2095 3068 50  0001 L CNN
-F 2 "Diode_SMD:D_SMA" V 2050 3000 50  0001 C CNN
-F 3 "~" V 2050 3000 50  0001 C CNN
-	1    2050 3000
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	2150 3000 2350 3000
 Wire Wire Line
@@ -1791,8 +1780,6 @@ Wire Wire Line
 Wire Wire Line
 	5400 2200 5400 2300
 Wire Wire Line
-	5400 1800 5650 1800
-Wire Wire Line
 	5200 2000 5200 2100
 Wire Wire Line
 	5200 1900 5200 2000
@@ -1802,13 +1789,12 @@ L speeduino_lib:SMD-MOSFET-N-CH-30V-5.8A-AO3400(SOT-23) Q1
 U 1 1 5F2AD516
 P 5400 2000
 F 0 "Q1" H 5514 2040 42  0000 L CNN
-F 1 "AO3400" H 5514 1961 42  0000 L CNN
+F 1 "2N7002" H 5514 1961 42  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5400 2000 50  0001 C CNN
-F 3 "" H 5400 2000 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5400 2000 50  0001 C CNN
 	1    5400 2000
 	1    0    0    -1  
 $EndComp
-Connection ~ 5650 1800
 Wire Wire Line
 	5000 1700 5000 1650
 Wire Wire Line
@@ -1821,7 +1807,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 4700 8950 5150
 Wire Wire Line
-	8950 4700 9150 4700
+	8950 4700 9000 4700
 $Comp
 L Device:R_Small R21
 U 1 1 5F47D363
@@ -1833,7 +1819,6 @@ F 3 "~" H 5400 1700 50  0001 C CNN
 	1    5400 1700
 	1    0    0    -1  
 $EndComp
-Connection ~ 5400 1800
 Wire Wire Line
 	5400 1600 5250 1600
 Wire Wire Line
@@ -1895,9 +1880,9 @@ L speeduino_lib:SMD-MOSFET-N-CH-30V-5.8A-AO3400(SOT-23) Q2
 U 1 1 5F4CCEB1
 P 5550 4800
 F 0 "Q2" H 5664 4840 42  0000 L CNN
-F 1 "AO3400" H 5664 4761 42  0000 L CNN
+F 1 "2N7002" H 5664 4761 42  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5550 4800 50  0001 C CNN
-F 3 "" H 5550 4800 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5550 4800 50  0001 C CNN
 	1    5550 4800
 	1    0    0    -1  
 $EndComp
@@ -1971,8 +1956,6 @@ Wire Wire Line
 Wire Wire Line
 	8700 5100 8700 5200
 Wire Wire Line
-	8700 4700 8950 4700
-Wire Wire Line
 	8500 4900 8500 5000
 Wire Wire Line
 	8500 4800 8500 4900
@@ -1982,9 +1965,9 @@ L speeduino_lib:SMD-MOSFET-N-CH-30V-5.8A-AO3400(SOT-23) Q10
 U 1 1 5F51A701
 P 8700 4900
 F 0 "Q10" H 8814 4940 42  0000 L CNN
-F 1 "AO3400" H 8814 4861 42  0000 L CNN
+F 1 "2N7002" H 8814 4861 42  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8700 4900 50  0001 C CNN
-F 3 "" H 8700 4900 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 8700 4900 50  0001 C CNN
 	1    8700 4900
 	1    0    0    -1  
 $EndComp
@@ -2006,7 +1989,6 @@ F 3 "~" H 8700 4600 50  0001 C CNN
 	1    8700 4600
 	1    0    0    -1  
 $EndComp
-Connection ~ 8700 4700
 Wire Wire Line
 	8700 4500 8550 4500
 Wire Wire Line
@@ -2024,7 +2006,6 @@ F 3 "~" H 8500 5100 50  0001 C CNN
 	1    8500 5100
 	1    0    0    -1  
 $EndComp
-Connection ~ 8950 4700
 Wire Wire Line
 	8750 1800 8750 2300
 Text GLabel 8100 2300 3    50   Input ~ 0
@@ -2062,8 +2043,6 @@ Wire Wire Line
 Wire Wire Line
 	8500 2200 8500 2300
 Wire Wire Line
-	8500 1800 8750 1800
-Wire Wire Line
 	8300 2000 8300 2100
 Wire Wire Line
 	8300 1900 8300 2000
@@ -2073,9 +2052,9 @@ L speeduino_lib:SMD-MOSFET-N-CH-30V-5.8A-AO3400(SOT-23) Q9
 U 1 1 5F5596CD
 P 8500 2000
 F 0 "Q9" H 8614 2040 42  0000 L CNN
-F 1 "AO3400" H 8614 1961 42  0000 L CNN
+F 1 "2N7002" H 8614 1961 42  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8500 2000 50  0001 C CNN
-F 3 "" H 8500 2000 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 8500 2000 50  0001 C CNN
 	1    8500 2000
 	1    0    0    -1  
 $EndComp
@@ -2097,14 +2076,12 @@ F 3 "~" H 8500 1700 50  0001 C CNN
 	1    8500 1700
 	1    0    0    -1  
 $EndComp
-Connection ~ 8500 1800
 Wire Wire Line
 	8500 1600 8350 1600
 Wire Wire Line
 	8350 1600 8350 1650
 Wire Wire Line
 	8350 1650 8300 1650
-Connection ~ 8750 1800
 $Comp
 L Device:R_Small R39
 U 1 1 5F5A3767
@@ -2343,14 +2320,14 @@ Wire Wire Line
 Wire Wire Line
 	5350 5100 5350 5150
 Wire Wire Line
-	8750 1800 8950 1800
+	8750 1800 8800 1800
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JP?
+L Jumper:SolderJumper_3_Bridged12 JP2
 U 1 1 5F5DA522
 P 5700 4400
-F 0 "JP?" V 5746 4468 50  0000 L CNN
+F 0 "JP2" V 5746 4468 50  0000 L CNN
 F 1 "SolderJumper_3_Bridged12" V 5655 4468 50  0000 L CNN
-F 2 "" H 5700 4400 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 5700 4400 50  0001 C CNN
 F 3 "~" H 5700 4400 50  0001 C CNN
 	1    5700 4400
 	0    -1   -1   0   
@@ -2365,4 +2342,76 @@ Wire Wire Line
 	5850 4600 6050 4600
 Text GLabel 5700 4200 0    50   Input ~ 0
 INJ3
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP1
+U 1 1 5F632981
+P 5500 1600
+F 0 "JP1" V 5546 1668 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 5455 1668 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 5500 1600 50  0001 C CNN
+F 3 "~" H 5500 1600 50  0001 C CNN
+	1    5500 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP3
+U 1 1 5F634156
+P 8650 1600
+F 0 "JP3" V 8696 1668 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 8605 1668 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 8650 1600 50  0001 C CNN
+F 3 "~" H 8650 1600 50  0001 C CNN
+	1    8650 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP4
+U 1 1 5F635F7F
+P 8850 4500
+F 0 "JP4" V 8896 4568 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 8805 4568 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 8850 4500 50  0001 C CNN
+F 3 "~" H 8850 4500 50  0001 C CNN
+	1    8850 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8850 4700 8700 4700
+Connection ~ 8700 4700
+Wire Wire Line
+	8650 1800 8500 1800
+Connection ~ 8500 1800
+Wire Wire Line
+	5500 1800 5400 1800
+Connection ~ 5400 1800
+Wire Wire Line
+	5650 1600 5650 1800
+Connection ~ 5650 1800
+Wire Wire Line
+	8800 1600 8800 1800
+Connection ~ 8800 1800
+Wire Wire Line
+	8800 1800 8950 1800
+Wire Wire Line
+	9000 4500 9000 4700
+Connection ~ 9000 4700
+Wire Wire Line
+	9000 4700 9150 4700
+Text GLabel 8850 4300 0    50   Input ~ 0
+INJ4
+Text GLabel 8650 1400 0    50   Input ~ 0
+INJ2
+Text GLabel 5500 1400 0    50   Input ~ 0
+INJ1
+$Comp
+L Device:D_Schottky_Small D3
+U 1 1 5F3ED788
+P 2050 3000
+F 0 "D3" H 2050 2887 50  0000 C CNN
+F 1 "1N4007" V 2095 3068 50  0001 L CNN
+F 2 "Diode_SMD:D_SMA" V 2050 3000 50  0001 C CNN
+F 3 "~" V 2050 3000 50  0001 C CNN
+	1    2050 3000
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
