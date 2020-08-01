@@ -58,11 +58,7 @@ Power on the board. Led must be lit when powered.<br/>
 5. If it is possible in your setup or on a bench, connect __injector channel 1 IN__ to the __Power -__ use a multi-meter in series with your connected injector on channel 1 to measure the current. This must be close the the set current. If this is not correct adjust __RV1__ accordingly <br/>
 
 ### Direct microcontroller input
-It is possible to use the board directly with an microcontroller. (non inverted inputs) The board inputs are 3.3V and 5V safe.<br/> 
-
-To do this, with a sharp object scratch the bridge between __pin 1__ and __pin 2__ of __JP1__ to __JP4__ on the back of the board. Use a multi-meter to double check the connection is broken.<br/>
-
-<br/>Use a soldering iron and a bit of solder to connect __pin 3__ and __pin 2__ for __JP1__ to __JP4__.<br/> 
+It is possible to use the board directly with an microcontroller. (non inverted inputs) The board inputs are 3.3V and 5V safe. To do this, with a sharp object scratch the bridge between __pin 1__ and __pin 2__ of __JP1__ to __JP4__ on the back of the board. Use a multi-meter to double check the connection is broken. Use a soldering iron and a bit of solder to connect __pin 3__ and __pin 2__ for __JP1__ to __JP4__.<br/> 
        
 
 ## Simulation	
