@@ -1,37 +1,37 @@
-Id,Designator,Package,Quantity,Designation,Supplier and ref,price,
-1,"Q11,Q12,Q4,Q3,Q10,Q9,Q2,Q1",SOT-23,8,2N7002,https://www.reichelt.nl/mosfet-n-60v-0-115a-0-3w-sot-23-2n-7002-7-f-p219153.html?&trstct=pos_2&nbc=1,0.03,€ 0.24
-2,"D11,D19,D12,D20",D_SMC,4,SS36,https://www.reichelt.nl/smd-schottky-60-v-3-a-smc-ss-36-p146610.html?&nbc=1,0.34,€ 1.36
-4,"D18,D16,D10,D8",D_SOT-23_ANK,4,BZX84C56,https://www.reichelt.nl/chip-zener-diode-0-35-w-56-v-smd-zd-56-p18919.html?&nbc=1,0.03,€ 0.12
-5,"R20,R36,R18,R33",R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,4,100R,https://www.reichelt.nl/smd-resistor-0603-100-ohm-100-mw-5-rnd-1550603-aq-p250141.html?r=1,0.012,€ 0.05
-6,"R37,R21,R22,R38",R_2512_6332Metric_Pad1.52x3.35mm_HandSolder,4,0R1,https://www.reichelt.nl/resistance-0-1-ohm-1-2512-cra2512-r100e-p120163.html?&trstct=pos_0&nbc=1,0.345,€ 1.38
-7,"R31,R16,R15,R32",R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,4,1K8,https://www.reichelt.nl/smd-resistor-0603-1-8-kohm-200-mw-1-rnd-155hp03-bg-p250628.html?&trstct=pos_2&nbc=1,0.012,€ 0.05
-8,"D17,D15,D9,D7,D3,D1",D_MiniMELF,6,BAV103,https://www.reichelt.nl/universal-diode-smd-minimelf-35-v-0-15-a-bav-103-smd-p41912.html?r=1,0.03,€ 0.18
-9,"R30,R29,R28,R27,R26,R25,R14,R13,R12,R11,R9,R8,R40,R39,R24,R23",R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,16,1K,,0.012,€ 0.19
-10,"D14,D13,D6,D5",SOT-23,4,BAT54S,https://www.reichelt.nl/schottky-diode-smd-sot-23-30-v-0-25-a-bat-54s-smd-p41905.html?&nbc=1,0.05,€ 0.20
-11,R4,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,12k,https://www.reichelt.nl/smd-resistor-0603-12-kohm-63-mw-1-rnd-0603-1-12k-p183079.html?&nbc=1,0.012,€ 0.01
-12,"U8,U7",SO-14_5.3x10.2mm_P1.27mm,2,74LS08,https://www.reichelt.nl/high-speed-cmos-smd-hc-08-p18628.html?&nbc=1,0.2,€ 0.40
-13,"U3,U5",SO-14_5.3x10.2mm_P1.27mm,2,74LS74,https://www.reichelt.nl/high-speed-cmos-smd-hc-74-p18701.html?&nbc=1,0.15,€ 0.30
-14,"Q15,Q6,Q5,Q13",SOT-23_Handsoldering,4,TSM2309CX,https://www.reichelt.nl/mosfet-p-ch-60v-3-1a-0-19r-sot23-tsm2309cx-p254942.html?&trstct=pos_8&nbc=1,0.21,€ 0.84
-15,J1,"PhoenixContact_MSTBA_2,5_6-G-5,08_1x06_P5.08mm_Horizontal",1,RND 205-00236,https://www.reichelt.nl/solderable-screw-terminal-6-pole-contact-spacing-5-08-mm-90-rnd-205-00236-p170281.html?&trstct=pos_0&nbc=1,0.63,€ 0.63
-16,J2,"PhoenixContact_MSTBA_2,5_8-G-5,08_1x08_P5.08mm_Horizontal",1,RND 205-00238,https://www.reichelt.nl/solderable-screw-terminal-8-pole-contact-spacing-5-08-mm-90-rnd-205-00238-p170283.html?&trstct=pos_0&nbc=1,0.78,€ 0.78
-18,D2,D_SMA,1,1N4007,https://www.reichelt.nl/si-rectifier-diode-do214ac-1000-v-1-a-s-1m-smd-p95357.html?&trstct=pos_4&nbc=1,0.05,€ 0.05
-19,U6,SOT-223-3_TabPin2,1,LM 1117,https://www.reichelt.nl/ldo-voltage-regulator-5v-sot-223-lm-1117-mpx-5-0-p187609.html?&trstct=pos_6&nbc=1,1.05,€ 1.05
-22,R10,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,10k,,0.012,€ 0.01
-23,"C9,C5,C8,C6",C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,4,220nf,https://www.reichelt.nl/mlcc-0603-220-nf-25-v-10-rnd-1500603x224-p226196.html?&trstct=pos_1&nbc=1,0.02,€ 0.08
-24,"C3,C2,C1",CP_Elec_10x12.5,3,SUNC 25CE1000AX,https://www.reichelt.nl/smd-capacitor-1-mf-25-v-105-c-2000-h-sunc-25ce1000ax-p246683.html?&trstct=pos_15&nbc=1,0.86,€ 2.58
-25,U1,SO-14_5.3x10.2mm_P1.27mm,1,74LS32,https://www.reichelt.nl/high-speed-cmos-smd-hc-32-p18673.html?&nbc=1,0.17,€ 0.17
-26,D4,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,BLUE,https://www.reichelt.nl/led-smd-0603-yellow-120-mcd-rnd-135-00182-p263778.html?&trstct=pos_1&nbc=1,0.041,€ 0.04
-27,"Q16,Q14,Q8,Q7",SOT-223,4,IRLL 024N,https://www.reichelt.nl/mosfet-n-channel-55-v-4-4-a-4-pin-3-tab-sot-223-irll-024n-p129816.html?&trstct=pos_0&nbc=1,0.41,€ 1.64
-28,"R19,R17,R1,R7,R35,R34",R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,6,470R,,0.012,€ 0.07
-29,F1,Fuse_Blade_ATO_directSolder,1,Fuse,https://www.ebay.com/itm/10Pcs-SL-506P-Mini-Blade-Fuse-Holder-Auto-Automotive-Boat-32V-For-PCB-Board-AT2/372608919118?_trkparms=ispr%3D1&hash=item56c138e64e:g:3O8AAOSwSk9ccDsv&enc=AQAFAAACcBaobrjLl8XobRIiIML1V4Imu%2Fn%2BzU5L90Z278x5ickk8ihYa55VeJusc0Ydu6jng%2FV0WJNb%2BwHO48tH4%2FAFh9r0KMH6LO4efVLHtdfGzvjyDN64VxP09nhLMGnScC%2FcipVR0gnUZwEx6uozsFLbVTQbYG0Gwa9t%2B5MghpTkcmCPmGgz7SRWeOLiQ%2FXn6rg050hNaewI39CH%2BDLc3iY%2BxblQHeQTTA28MqQLINaZzoQn7LJPKTTZj6M2vKYNsYwQKxNiaQaYjlw%2B%2BLA5ZbxOKfviCuJALEJxyiIo%2BeIF9pM0QxHmQCzFI9af%2BeweigZFr1ZxGAhCGhjR3Cp4djv24vtZKUBa4z2E6oxJrFavdcQMDqd8GioTw0ls1StvnlodD57%2BlgrYrAu%2FsW8j%2BDXKKof6VPa20dHDZwBd9WcJeFlAH1AeGW40rhO2ExHgUBXGZ6kNM9Usl4%2FI08jTjYdNyVXWUoFtE9YAa5Ca7X4krowCdu%2FcXpkbCkYW7A8dkBH%2Bp5%2F39qbWPRII1hHUhZmzdZCcqy6QvMDratvjW1ZJtmvzEle0G9BhY2v%2B%2BqUDAl5as2%2FE8wY%2FNOcreJoWyk5dH1Vx05MekRFh3olnp4jXIZilLimEidggQ3hksaHfF0cl%2Btb%2FU0mkSb7oWJIRGSGq3S8ebMlqBKefkKJpmP3QChLqFZ2K2oSxe%2BQdLgGTcGE6f1V%2FgmMFkDb5Y2%2FpEbEg5oC%2BIrRsv%2FH1HkwrMBfZA537lYm4jxrAAPgnjKrwuR7%2BJQYUMAZbDwg6vr37Ot1tk%2BYd7bitinfuqA1Yvwd8pVmWRw22IpliBcU%2Bk2TP0s6Y%2Bg%3D%3D&checksum=372608919118d9f90417c6314aecb14f6d3d14c22f34,0.5,€ 0.50
-30,F2,Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder,1,PPTC 16V2A,https://www.reichelt.nl/ptc-fuse-smd-1812-16v-1-6a-resettable-ptc-fsmd16016r-p279370.html?&trstct=pos_5&nbc=1,0.22,€ 0.22
-31,"C7,C4",C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,2,10uf,https://www.reichelt.nl/mlcc-1206-4-7-f-50-v-10-rnd-1501206b475k-p254230.html?&trstct=pos_2&nbc=1,0.08,€ 0.16
-32,U4,SOT-23-6_Handsoldering,1,LTC6992,https://nl.aliexpress.com/item/4001234713553.html?spm=a2g0s.9042311.0.0.20f54c4d8OVbsw,1.98,€ 1.98
-33,U2,SO-14_5.3x10.2mm_P1.27mm,1,LM2901,https://www.reichelt.nl/comparator-quad-soic-14-lm-2901-d-p187667.html?&nbc=1,0.27,€ 0.27
-34,"RV1,RV2",Potentiometer_Bourns_3314R-1_Vertical_Hole,2,5K,https://www.reichelt.com/de/en/smd-cermet-trimmer-5-kohm-23b-5-0k-p146084.html,0.65,€ 1.30
-35,R5,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,100k,,0.012,€ 0.01
-36,R3,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,470k,,0.012,€ 0.01
-37,R6,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,180R,,0.012,€ 0.01
-38,R2,RV_Disc_D12mm_W3.9mm_P7.5mm,1,VARISTOR-18V,https://www.reichelt.nl/varistor-rm-7-5-mm-20-v-10-epc-b72214-s-20-p239942.html?&trstct=pos_2&nbc=1,0.46,€ 0.46
-,,,,,,,
-,,,,,,Total,€ 17.35
+Id;Designator;Package;Quantity;Designation;Supplier and ref;price;
+1;Q11,Q12,Q4,Q3,Q10,Q9,Q2,Q1;SOT-23;8;2N7002;https://www.reichelt.nl/mosfet-n-60v-0-115a-0-3w-sot-23-2n-7002-7-f-p219153.html?&trstct=pos_2&nbc=1;€ 0.03;€ 0.24
+2;D11,D19,D12,D20;D_SMC;4;SS36;https://www.reichelt.nl/smd-schottky-60-v-3-a-smc-ss-36-p146610.html?&nbc=1;€ 0.34;€ 1.36
+4;D18,D16,D10,D8;D_SOT-23_ANK;4;BZX84C56;https://www.reichelt.nl/chip-zener-diode-0-35-w-56-v-smd-zd-56-p18919.html?&nbc=1;€ 0.03;€ 0.12
+5;R20,R36,R18,R33;R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;4;100R;https://www.reichelt.nl/smd-resistor-0603-100-ohm-100-mw-5-rnd-1550603-aq-p250141.html?r=1;€ 0.01;€ 0.05
+6;R37,R21,R22,R38;R_2512_6332Metric_Pad1.52x3.35mm_HandSolder;4;0R1;https://www.reichelt.nl/resistance-0-1-ohm-1-2512-cra2512-r100e-p120163.html?&trstct=pos_0&nbc=1;€ 0.35;€ 1.38
+7;R31,R16,R15,R32;R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;4;1K8;https://www.reichelt.nl/smd-resistor-0603-1-8-kohm-200-mw-1-rnd-155hp03-bg-p250628.html?&trstct=pos_2&nbc=1;€ 0.01;€ 0.05
+8;D17,D15,D9,D7,D3,D1;D_MiniMELF;6;BAV103;https://www.reichelt.nl/universal-diode-smd-minimelf-35-v-0-15-a-bav-103-smd-p41912.html?r=1;€ 0.03;€ 0.18
+1;R44,R43,R42,R41,R30,R29,R28,R27,R26,R25,R14,R13,R12,R11,R9,R8,R40,R39,R24,R23;R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;20;1K;;€ 0.01;€ 0.24
+10;D14,D13,D6,D5;SOT-23;4;BAT54S;https://www.reichelt.nl/schottky-diode-smd-sot-23-30-v-0-25-a-bat-54s-smd-p41905.html?&nbc=1;€ 0.05;€ 0.20
+11;R4;R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;1;12k;https://www.reichelt.nl/smd-resistor-0603-12-kohm-63-mw-1-rnd-0603-1-12k-p183079.html?&nbc=1;€ 0.01;€ 0.01
+12;U8,U7;SO-14_5.3x10.2mm_P1.27mm;2;74LS08;https://www.reichelt.nl/high-speed-cmos-smd-hc-08-p18628.html?&nbc=1;€ 0.20;€ 0.40
+13;U3,U5;SO-14_5.3x10.2mm_P1.27mm;2;74LS74;https://www.reichelt.nl/high-speed-cmos-smd-hc-74-p18701.html?&nbc=1;€ 0.15;€ 0.30
+14;Q15,Q6,Q5,Q13;SOT-23_Handsoldering;4;TSM2309CX;https://www.reichelt.nl/mosfet-p-ch-60v-3-1a-0-19r-sot23-tsm2309cx-p254942.html?&trstct=pos_8&nbc=1;€ 0.21;€ 0.84
+15;J1;PhoenixContact_MSTBA_2,5_6-G-5,08_1x06_P5.08mm_Horizontal;1;RND 205-00236;https://www.reichelt.nl/solderable-screw-terminal-6-pole-contact-spacing-5-08-mm-90-rnd-205-00236-p170281.html?&trstct=pos_0&nbc=1;€ 0.63;€ 0.63
+16;J2;PhoenixContact_MSTBA_2,5_8-G-5,08_1x08_P5.08mm_Horizontal;1;RND 205-00238;https://www.reichelt.nl/solderable-screw-terminal-8-pole-contact-spacing-5-08-mm-90-rnd-205-00238-p170283.html?&trstct=pos_0&nbc=1;€ 0.78;€ 0.78
+18;D2;D_SMA;1;1N4007;https://www.reichelt.nl/si-rectifier-diode-do214ac-1000-v-1-a-s-1m-smd-p95357.html?&trstct=pos_4&nbc=1;€ 0.05;€ 0.05
+19;U6;SOT-223-3_TabPin2;1;LM340;https://www.reichelt.nl/ldo-voltage-regulator-5v-sot-223-lm-1117-mpx-5-0-p187609.html?&trstct=pos_6&nbc=1;€ 1.17;€ 1.17
+22;R10;R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;1;10k;;€ 0.01;€ 0.01
+23;C9,C5,C8,C6;C_0603_1608Metric_Pad1.05x0.95mm_HandSolder;4;220nf;https://www.reichelt.nl/mlcc-0603-220-nf-25-v-10-rnd-1500603x224-p226196.html?&trstct=pos_1&nbc=1;€ 0.02;€ 0.08
+24;C3,C2,C1;CP_Elec_10x12.5;3;SUNC 25CE1000AX;https://www.reichelt.nl/smd-capacitor-1-mf-25-v-105-c-2000-h-sunc-25ce1000ax-p246683.html?&trstct=pos_15&nbc=1;€ 0.86;€ 2.58
+25;U1;SO-14_5.3x10.2mm_P1.27mm;1;74LS32;https://www.reichelt.nl/high-speed-cmos-smd-hc-32-p18673.html?&nbc=1;€ 0.17;€ 0.17
+26;D4;LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;1;BLUE;https://www.reichelt.nl/led-smd-0603-yellow-120-mcd-rnd-135-00182-p263778.html?&trstct=pos_1&nbc=1;€ 0.04;€ 0.04
+27;Q16,Q14,Q8,Q7;SOT-223;4;IRLL 024N;https://www.reichelt.nl/mosfet-n-channel-55-v-4-4-a-4-pin-3-tab-sot-223-irll-024n-p129816.html?&trstct=pos_0&nbc=1;€ 0.41;€ 1.64
+28;R19,R17,R1,R7,R35,R34;R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;6;470R;;€ 0.01;€ 0.07
+29;F1;Fuse_Blade_ATO_directSolder;1;Fuse;https://www.ebay.com/itm/10Pcs-SL-506P-Mini-Blade-Fuse-Holder-Auto-Automotive-Boat-32V-For-PCB-Board-AT2/372608919118?_trkparms=ispr%3D1&hash=item56c138e64e:g:3O8AAOSwSk9ccDsv&enc=AQAFAAACcBaobrjLl8XobRIiIML1V4Imu%2Fn%2BzU5L90Z278x5ickk8ihYa55VeJusc0Ydu6jng%2FV0WJNb%2BwHO48tH4%2FAFh9r0KMH6LO4efVLHtdfGzvjyDN64VxP09nhLMGnScC%2FcipVR0gnUZwEx6uozsFLbVTQbYG0Gwa9t%2B5MghpTkcmCPmGgz7SRWeOLiQ%2FXn6rg050hNaewI39CH%2BDLc3iY%2BxblQHeQTTA28MqQLINaZzoQn7LJPKTTZj6M2vKYNsYwQKxNiaQaYjlw%2B%2BLA5ZbxOKfviCuJALEJxyiIo%2BeIF9pM0QxHmQCzFI9af%2BeweigZFr1ZxGAhCGhjR3Cp4djv24vtZKUBa4z2E6oxJrFavdcQMDqd8GioTw0ls1StvnlodD57%2BlgrYrAu%2FsW8j%2BDXKKof6VPa20dHDZwBd9WcJeFlAH1AeGW40rhO2ExHgUBXGZ6kNM9Usl4%2FI08jTjYdNyVXWUoFtE9YAa5Ca7X4krowCdu%2FcXpkbCkYW7A8dkBH%2Bp5%2F39qbWPRII1hHUhZmzdZCcqy6QvMDratvjW1ZJtmvzEle0G9BhY2v%2B%2BqUDAl5as2%2FE8wY%2FNOcreJoWyk5dH1Vx05MekRFh3olnp4jXIZilLimEidggQ3hksaHfF0cl%2Btb%2FU0mkSb7oWJIRGSGq3S8ebMlqBKefkKJpmP3QChLqFZ2K2oSxe%2BQdLgGTcGE6f1V%2FgmMFkDb5Y2%2FpEbEg5oC%2BIrRsv%2FH1HkwrMBfZA537lYm4jxrAAPgnjKrwuR7%2BJQYUMAZbDwg6vr37Ot1tk%2BYd7bitinfuqA1Yvwd8pVmWRw22IpliBcU%2Bk2TP0s6Y%2Bg%3D%3D&checksum=372608919118d9f90417c6314aecb14f6d3d14c22f34;€ 0.50;€ 0.50
+30;F2;Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder;1;PPTC 16V2A;https://www.reichelt.nl/ptc-fuse-smd-1812-16v-1-6a-resettable-ptc-fsmd16016r-p279370.html?&trstct=pos_5&nbc=1;€ 0.22;€ 0.22
+31;C7,C4;C_1206_3216Metric_Pad1.42x1.75mm_HandSolder;2;10uf;https://www.reichelt.nl/mlcc-1206-4-7-f-50-v-10-rnd-1501206b475k-p254230.html?&trstct=pos_2&nbc=1;€ 0.08;€ 0.16
+32;U4;SOT-23-6_Handsoldering;1;LTC6992;https://nl.aliexpress.com/item/4001234713553.html?spm=a2g0s.9042311.0.0.20f54c4d8OVbsw;€ 1.98;€ 1.98
+33;U2;SO-14_5.3x10.2mm_P1.27mm;1;LM2901;https://www.reichelt.nl/comparator-quad-soic-14-lm-2901-d-p187667.html?&nbc=1;€ 0.27;€ 0.27
+34;RV1,RV2;Potentiometer_Bourns_3314R-1_Vertical_Hole;2;5K;https://www.reichelt.com/de/en/smd-cermet-trimmer-5-kohm-23b-5-0k-p146084.html;€ 0.65;€ 1.30
+35;R5;R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;1;100k;;€ 0.01;€ 0.01
+36;R3;R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;1;470k;;€ 0.01;€ 0.01
+37;R6;R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;1;180R;;€ 0.01;€ 0.01
+38;R2;RV_Disc_D12mm_W3.9mm_P7.5mm;1;VARISTOR-18V;https://www.reichelt.nl/varistor-rm-7-5-mm-20-v-10-epc-b72214-s-20-p239942.html?&trstct=pos_2&nbc=1;€ 0.46;€ 0.46
+;;;;;;;
+;;;;;;Total;€ 17.52

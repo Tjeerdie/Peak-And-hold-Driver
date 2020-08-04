@@ -173,7 +173,7 @@ L Regulator_Linear:LM78M05_TO220 U6
 U 1 1 6244D841
 P 3100 3000
 F 0 "U6" H 3100 3242 50  0000 C CNN
-F 1 "LM78M05" H 3100 3151 50  0000 C CNN
+F 1 "LM340" H 3100 3151 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3100 3225 50  0001 C CIN
 F 3 "http://www.fairchildsemi.com/ds/LM/LM78M05.pdf" H 3100 2950 50  0001 C CNN
 	1    3100 3000
@@ -1759,7 +1759,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 4880 2000 50  0001 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5650 1800 5650 2300
+	5650 1800 5650 2000
 $Comp
 L Device:R_Small R8
 U 1 1 5F2AD509
@@ -1803,9 +1803,9 @@ Connection ~ 5200 1650
 Wire Wire Line
 	5200 1650 5200 1700
 Wire Wire Line
-	5800 4600 5800 5050
+	5800 4600 5800 4700
 Wire Wire Line
-	8950 4700 8950 5150
+	8950 4700 8950 4900
 Wire Wire Line
 	8950 4700 9000 4700
 $Comp
@@ -2007,7 +2007,7 @@ F 3 "~" H 8500 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8750 1800 8750 2300
+	8750 1800 8750 2000
 Text GLabel 8100 2300 3    50   Input ~ 0
 PWR_GND
 Text GLabel 8300 2350 3    50   Input ~ 0
@@ -2414,4 +2414,83 @@ F 3 "~" V 2050 3000 50  0001 C CNN
 	1    2050 3000
 	-1   0    0    1   
 $EndComp
+$Comp
+L Device:R_Small R42
+U 1 1 5F326DA4
+P 5750 4800
+F 0 "R42" H 5809 4846 50  0000 L CNN
+F 1 "1K" H 5809 4755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5750 4800 50  0001 C CNN
+F 3 "~" H 5750 4800 50  0001 C CNN
+	1    5750 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 4700 5800 4700
+Connection ~ 5800 4700
+Wire Wire Line
+	5800 4700 5800 5050
+Wire Wire Line
+	5750 4900 5750 5000
+Wire Wire Line
+	5750 5000 5550 5000
+Connection ~ 5550 5000
+$Comp
+L Device:R_Small R44
+U 1 1 5F36C8D9
+P 8850 5100
+F 0 "R44" H 8909 5146 50  0000 L CNN
+F 1 "1K" H 8909 5055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8850 5100 50  0001 C CNN
+F 3 "~" H 8850 5100 50  0001 C CNN
+	1    8850 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 5000 8850 4900
+Wire Wire Line
+	8850 4900 8950 4900
+Connection ~ 8950 4900
+Wire Wire Line
+	8950 4900 8950 5150
+Wire Wire Line
+	8850 5200 8700 5200
+$Comp
+L Device:R_Small R43
+U 1 1 5F3BB1AD
+P 8700 2100
+F 0 "R43" H 8759 2146 50  0000 L CNN
+F 1 "1K" H 8759 2055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8700 2100 50  0001 C CNN
+F 3 "~" H 8700 2100 50  0001 C CNN
+	1    8700 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 2000 8750 2000
+Connection ~ 8750 2000
+Wire Wire Line
+	8750 2000 8750 2300
+Wire Wire Line
+	8700 2200 8500 2200
+Connection ~ 8500 2200
+$Comp
+L Device:R_Small R41
+U 1 1 5F3FF496
+P 5600 2100
+F 0 "R41" H 5659 2146 50  0000 L CNN
+F 1 "1K" H 5659 2055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5600 2100 50  0001 C CNN
+F 3 "~" H 5600 2100 50  0001 C CNN
+	1    5600 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2200 5400 2200
+Connection ~ 5400 2200
+Wire Wire Line
+	5600 2000 5650 2000
+Connection ~ 5650 2000
+Wire Wire Line
+	5650 2000 5650 2300
 $EndSCHEMATC
