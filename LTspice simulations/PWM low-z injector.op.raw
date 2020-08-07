@@ -1,5 +1,5 @@
 Title: * Z:\home\hoogendijkta\Documents\hobby\speeduino\KicadPCB\Peak-And-hold-Driver\LTspice simulations\PWM low-z injector.asc
-Date: Tue Aug 04 23:19:23 2020
+Date: Fri Aug 07 16:45:07 2020
 Plotname: Operating Point
 Flags: real
 No. Variables: 86
@@ -889,7 +889,7 @@ Backannotation: i23:i10:i22 1 2 3
 Backannotation: u1 1 2 3 4 5
 Backannotation: u2 1 2 3 4 5 6
 Variables:
-	0	V(n003)	voltage
+	0	V(n002)	voltage
 	1	V(n007)	voltage
 	2	V(n006)	voltage
 	3	V(p001)	voltage
@@ -911,7 +911,7 @@ Variables:
 	19	V(n008)	voltage
 	20	V(n010)	voltage
 	21	V(n009)	voltage
-	22	V(n002)	voltage
+	22	V(n003)	voltage
 	23	V(n001)	voltage
 	24	V(n018)	voltage
 	25	V(test_dc)	voltage
