@@ -11,7 +11,7 @@ Id;Designator;Package;Quantity;Designation;Supplier and ref;price;
 11;R4;R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;1;12k;https://www.reichelt.nl/smd-resistor-0603-12-kohm-63-mw-1-rnd-0603-1-12k-p183079.html?&nbc=1;€ 0.01;€ 0.01
 12;U8,U7;SO-14_5.3x10.2mm_P1.27mm;2;74LS08;https://www.reichelt.nl/high-speed-cmos-smd-hc-08-p18628.html?&nbc=1;€ 0.20;€ 0.40
 13;U3,U5;SO-14_5.3x10.2mm_P1.27mm;2;74LS74;https://www.reichelt.nl/high-speed-cmos-smd-hc-74-p18701.html?&nbc=1;€ 0.15;€ 0.30
-14;Q15,Q6,Q5,Q13;SOT-23_Handsoldering;4;TSM2309CX;https://www.reichelt.nl/mosfet-p-ch-60v-3-1a-0-19r-sot23-tsm2309cx-p254942.html?&trstct=pos_8&nbc=1;€ 0.21;€ 0.84
+14;Q13,Q20,Q18,Q15,Q6,Q19,Q17,Q5;SOT-23;8;TSM2309CX;https://www.reichelt.nl/mosfet-p-ch-60v-3-1a-0-19r-sot23-tsm2309cx-p254942.html?&trstct=pos_8&nbc=1;€ 0.21;€ 1.68
 15;J1;PhoenixContact_MSTBA_2,5_6-G-5,08_1x06_P5.08mm_Horizontal;1;RND 205-00236;https://www.reichelt.nl/solderable-screw-terminal-6-pole-contact-spacing-5-08-mm-90-rnd-205-00236-p170281.html?&trstct=pos_0&nbc=1;€ 0.63;€ 0.63
 16;J2;PhoenixContact_MSTBA_2,5_8-G-5,08_1x08_P5.08mm_Horizontal;1;RND 205-00238;https://www.reichelt.nl/solderable-screw-terminal-8-pole-contact-spacing-5-08-mm-90-rnd-205-00238-p170283.html?&trstct=pos_0&nbc=1;€ 0.78;€ 0.78
 18;D2;D_SMA;1;1N4007;https://www.reichelt.nl/si-rectifier-diode-do214ac-1000-v-1-a-s-1m-smd-p95357.html?&trstct=pos_4&nbc=1;€ 0.05;€ 0.05
@@ -34,4 +34,4 @@ Id;Designator;Package;Quantity;Designation;Supplier and ref;price;
 37;R6;R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;1;180R;;€ 0.01;€ 0.01
 38;R2;RV_Disc_D12mm_W3.9mm_P7.5mm;1;VARISTOR-18V;https://www.reichelt.nl/varistor-rm-7-5-mm-20-v-10-epc-b72214-s-20-p239942.html?&trstct=pos_2&nbc=1;€ 0.46;€ 0.46
 ;;;;;;;
-;;;;;;Total;€ 17.52
+;;;;;;Total;€ 18.36
