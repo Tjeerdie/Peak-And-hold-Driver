@@ -2,7 +2,6 @@ Questionable use of curly braces in ".model sir870adp vdmos(rg=3 vto=2.9 rd=3.2m
     Error: undefined symbol in: "[m]"
 Circuit: * Z:\home\hoogendijkta\Documents\hobby\speeduino\KicadPCB\Peak-And-hold-Driver\LTspice simulations\PWM low-z injector.asc
 
-WARNING: Less than two connections to node 5V.  This node is used by R1.
 WARNING: Less than two connections to node PWM.  This node is used by V2.
 WARNING: Less than two connections to node TEST_DC.  This node is used by A6.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
@@ -16,56 +15,169 @@ Gmin = 0.000142725
 vernier = 0.5
 vernier = 0.25
 vernier = 0.125
-Gmin = 7.64184e-005
+Gmin = 0.000115679
+vernier = 0.166667
+vernier = 0.222222
+Gmin = 7.64174e-005
+vernier = 0.296296
+Gmin = 4.00925e-005
+vernier = 0.395061
+vernier = 0.526748
+Gmin = 1.38908e-005
+vernier = 0.702331
+vernier = 0.936441
+Gmin = 2.69804e-006
+vernier = 1
+Gmin = 3.0491e-007
+Gmin = 3.27395e-008
+Gmin = 3.51537e-009
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
 vernier = 0.0625
+Gmin = 2.72708e-009
 vernier = 0.03125
 vernier = 0.015625
 vernier = 0.0078125
-Gmin = 7.56782e-005
 vernier = 0.00390625
+Gmin = 2.71117e-009
 vernier = 0.00520833
-Gmin = 7.50651e-005
-vernier = 0.00694444
-vernier = 0.00925925
-Gmin = 7.3753e-005
-vernier = 0.0123457
-Gmin = 7.17353e-005
-vernier = 0.0164609
-vernier = 0.0219478
-Gmin = 6.8474e-005
-vernier = 0.0292638
-vernier = 0.0390184
-Gmin = 6.35839e-005
-vernier = 0.0520245
-Gmin = 5.65993e-005
-vernier = 0.0693659
-vernier = 0.0924879
-Gmin = 4.65909e-005
-vernier = 0.123317
-vernier = 0.164423
-Gmin = 3.42244e-005
-vernier = 0.21923
-Gmin = 2.11503e-005
-vernier = 0.292307
-vernier = 0.389743
-Gmin = 9.55028e-006
-vernier = 0.519657
-vernier = 0.692876
-Gmin = 2.76839e-006
-vernier = 0.923834
-Gmin = 4.20001e-007
+vernier = 0.00260417
+Gmin = 2.69271e-009
+vernier = 0.00347222
+vernier = 0.00462963
+vernier = 0.00231481
+Gmin = 2.67524e-009
+vernier = 0.00308642
+Gmin = 2.65725e-009
+vernier = 0.00411522
+vernier = 0.00548696
+vernier = 0.00274348
+Gmin = 2.63706e-009
+vernier = 0.00365797
+Gmin = 2.61545e-009
+vernier = 0.0048773
+vernier = 0.00243865
+vernier = 0.00325153
+Gmin = 2.60115e-009
+vernier = 0.00433537
+vernier = 0.00216769
+Gmin = 2.58779e-009
+vernier = 0.00289025
+vernier = 0.00385366
+Gmin = 2.5667e-009
+vernier = 0.00513821
+vernier = 0.00256911
+vernier = 0.00342548
+Gmin = 2.55136e-009
+vernier = 0.0045673
+vernier = 0.00228365
+Gmin = 2.53612e-009
+vernier = 0.00304487
+vernier = 0.00405982
+vernier = 0.00202991
+Gmin = 2.52169e-009
+vernier = 0.00270655
+Gmin = 2.50681e-009
+vernier = 0.00360873
+vernier = 0.00481163
+vernier = 0.00240582
+Gmin = 2.4901e-009
+vernier = 0.00320776
+Gmin = 2.4722e-009
+vernier = 0.00427701
+vernier = 0.0021385
+vernier = 0.00285134
+Gmin = 2.46033e-009
+vernier = 0.00380178
+vernier = 0.00190089
+Gmin = 2.44925e-009
+vernier = 0.00253452
+vernier = 0.00337936
+Gmin = 2.43173e-009
+vernier = 0.00450581
+vernier = 0.00225291
+vernier = 0.00300387
+Gmin = 2.41899e-009
+vernier = 0.00400516
+vernier = 0.00200258
+Gmin = 2.40631e-009
+vernier = 0.00267011
+vernier = 0.00356014
+Gmin = 2.39004e-009
+vernier = 0.00474686
+vernier = 0.00237343
+Gmin = 2.37591e-009
+vernier = 0.00316457
+vernier = 0.00421943
+vernier = 0.00210971
+Gmin = 2.36201e-009
+vernier = 0.00281295
+Gmin = 2.34711e-009
+vernier = 0.0037506
+vernier = 0.0018753
+vernier = 0.0025004
+Gmin = 2.33723e-009
+vernier = 0.00333386
+vernier = 0.00444515
+Gmin = 2.31865e-009
+vernier = 0.00222258
+vernier = 0.00296343
+Gmin = 2.30794e-009
+vernier = 0.00395124
+vernier = 0.00197562
+vernier = 0.00263416
+Gmin = 2.29733e-009
+vernier = 0.00351222
+vernier = 0.00175611
+Gmin = 2.28677e-009
+vernier = 0.00234148
+vernier = 0.00312197
+Gmin = 2.2732e-009
+vernier = 0.00416262
+vernier = 0.00208131
+Gmin = 2.26141e-009
+vernier = 0.00277508
+vernier = 0.00370011
+vernier = 0.00185005
+Gmin = 2.24981e-009
+vernier = 0.00246674
+Gmin = 2.23736e-009
+vernier = 0.00328898
+vernier = 0.00438531
+Gmin = 2.21661e-009
+vernier = 0.00584708
+vernier = 0.0077961
+Gmin = 2.18394e-009
+vernier = 0.0103948
+Gmin = 2.13351e-009
+vernier = 0.0138597
+vernier = 0.0184796
+Gmin = 2.05152e-009
+vernier = 0.0246395
+vernier = 0.0328527
+Gmin = 1.92737e-009
+vernier = 0.0438035
+Gmin = 1.74733e-009
+vernier = 0.0584047
+vernier = 0.0778729
+Gmin = 1.48289e-009
+vernier = 0.103831
+vernier = 0.138441
+Gmin = 1.14296e-009
+vernier = 0.184588
+Gmin = 7.60971e-010
+vernier = 0.246117
+vernier = 0.328155
+Gmin = 3.87976e-010
+vernier = 0.43754
+vernier = 0.583387
+Gmin = 1.35385e-010
+vernier = 0.777849
+Gmin = 2.70415e-011
 vernier = 1
-Gmin = 4.50973e-008
-Gmin = 4.84228e-009
-vernier = 0.5
-vernier = 0.666667
-Gmin = 1.47408e-009
-vernier = 0.888888
-Gmin = 2.50055e-010
-vernier = 1
-Gmin = 2.74597e-011
-Gmin = 2.94846e-012
-Gmin = 3.16589e-013
+Gmin = 2.90356e-012
+Gmin = 3.11768e-013
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
@@ -75,52 +187,23 @@ Changing Tseed to 4.88281e-008
 Changing Tseed to 4.88281e-012
 Changing Tseed to 4.88281e-007
 Changing Tseed to 4.88281e-013
-Heightened Def Con from 8.00001e-007 to 8.02001e-007
-Heightened Def Con from 6.47719e-006 to 6.4772e-006
-Heightened Def Con from 6.4772e-006 to 6.4772e-006
-Heightened Def Con from 1.00018e-005 to 1.00018e-005
-Heightened Def Con from 0.00709096 to 0.00709096
-Heightened Def Con from 0.00757102 to 0.00757102
-Heightened Def Con from 0.0076054 to 0.0076054
-Heightened Def Con from 0.00773104 to 0.00773104
-Heightened Def Con from 0.00789106 to 0.00789106
-Heightened Def Con from 0.00789106 to 0.00789107
-Heightened Def Con from 0.0088512 to 0.0088512
-Heightened Def Con from 0.00901122 to 0.00901122
-Heightened Def Con from 0.00917124 to 0.00917124
-Heightened Def Con from 0.0101314 to 0.0101314
-Heightened Def Con from 0.0112515 to 0.0112515
-Heightened Def Con from 0.0130118 to 0.0130118
-Heightened Def Con from 0.0130461 to 0.0130461
-Heightened Def Con from 0.0133318 to 0.0133318
-Heightened Def Con from 0.0133318 to 0.0133318
-Heightened Def Con from 0.0138462 to 0.0138462
-Heightened Def Con from 0.026648 to 0.026648
-Heightened Def Con from 0.0328544 to 0.0328544
-Heightened Def Con from 0.0328544 to 0.0328544
-Heightened Def Con from 0.0342946 to 0.0342946
-Heightened Def Con from 0.0368441 to 0.0368441
-Heightened Def Con from 0.0456562 to 0.0456562
-Heightened Def Con from 0.0456905 to 0.0456905
-Heightened Def Con from 0.049211 to 0.049211
-Heightened Def Con from 0.0498511 to 0.0498511
 
-Date: Fri Aug 07 16:45:28 2020
-Total elapsed time: 21.889 seconds.
+Date: Fri Aug 07 18:58:57 2020
+Total elapsed time: 111.868 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 462447
-traniter = 460687
-tranpoints = 125373
-accept = 93487
-rejected = 31909
-matrix size = 95
-fillins = 29
+totiter = 2019924
+traniter = 2014395
+tranpoints = 518927
+accept = 383781
+rejected = 135140
+matrix size = 107
+fillins = 32
 solver = Normal
-Thread vector: 43.3/33.0[2] 16.9/14.3[2] 7.3/5.2[2] 0.8/2.1[1]  2592/500
-Matrix Compiler1: 5.45 KB object code size  3.6/2.7/[1.4]
-Matrix Compiler2: off  [3.1]/3.9/4.0
+Thread vector: 66.7/40.1[3] 18.9/12.5[3] 11.1/7.0[3] 1.1/2.4[1]  2592/500
+Matrix Compiler1: 6.28 KB object code size  4.4/3.3/[1.1]
+Matrix Compiler2: off  [3.9]/4.7/4.9
 
 
