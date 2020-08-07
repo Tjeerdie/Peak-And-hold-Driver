@@ -2538,13 +2538,13 @@ Wire Wire Line
 	9950 4000 10000 4000
 $Comp
 L Amplifier_Operational:LM2904 U9
-U 2 1 5F317FCB
+U 1 1 5F317FCB
 P 1000 6650
 F 0 "U9" H 1000 7017 50  0000 C CNN
 F 1 "LM2904" H 1000 6926 50  0000 C CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 1000 6650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm358.pdf" H 1000 6650 50  0001 C CNN
-	2    1000 6650
+	1    1000 6650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2611,7 +2611,7 @@ L Device:R_Small R1
 U 1 1 5F55F3EA
 P 550 6400
 F 0 "R1" H 491 6354 50  0000 R CNN
-F 1 "10k" H 491 6445 50  0000 R CNN
+F 1 "15k" H 491 6445 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 550 6400 50  0001 C CNN
 F 3 "~" H 550 6400 50  0001 C CNN
 	1    550  6400
@@ -2622,7 +2622,7 @@ L Device:R_Small R46
 U 1 1 5F5A7792
 P 650 6400
 F 0 "R46" H 591 6354 50  0000 R CNN
-F 1 "6.2k" H 591 6445 50  0000 R CNN
+F 1 "9.1k" H 591 6445 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 650 6400 50  0001 C CNN
 F 3 "~" H 650 6400 50  0001 C CNN
 	1    650  6400
@@ -2641,4 +2641,19 @@ Wire Wire Line
 Connection ~ 650  6550
 Wire Wire Line
 	650  6550 700  6550
+$Comp
+L Amplifier_Operational:LM2904 U?
+U 2 1 5F7AED14
+P 1600 5700
+F 0 "U?" H 1600 6067 50  0000 C CNN
+F 1 "LM2904" H 1600 5976 50  0000 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 1600 5700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm358.pdf" H 1600 5700 50  0001 C CNN
+	2    1600 5700
+	1    0    0    -1  
+$EndComp
+Text GLabel 1300 5600 0    50   Input ~ 0
+PWR_GND
+Text GLabel 1300 5800 0    50   Input ~ 0
+PWR_GND
 $EndSCHEMATC
