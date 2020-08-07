@@ -637,12 +637,12 @@ $EndComp
 $Comp
 L Comparator:LM2901 U2
 U 5 1 5EDACEAF
-P 1600 4750
-F 0 "U2" H 1558 4796 50  0000 L CNN
-F 1 "LM2901" H 1558 4705 50  0000 L CNN
-F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 1550 4850 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/lm2901.pdf" H 1650 4950 50  0001 C CNN
-	5    1600 4750
+P 1500 4550
+F 0 "U2" H 1458 4596 50  0000 L CNN
+F 1 "LM2901" H 1458 4505 50  0000 L CNN
+F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 1450 4650 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm2901.pdf" H 1550 4750 50  0001 C CNN
+	5    1500 4550
 	1    0    0    -1  
 $EndComp
 Text GLabel 7900 4850 1    50   Input ~ 0
@@ -661,12 +661,12 @@ $EndComp
 $Comp
 L 74xx:74LS08 U7
 U 5 1 5F10F026
-P 3550 4700
-F 0 "U7" H 3780 4746 50  0000 L CNN
-F 1 "74LS08" H 3780 4655 50  0000 L CNN
-F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 3550 4700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 3550 4700 50  0001 C CNN
-	5    3550 4700
+P 3450 4600
+F 0 "U7" H 3680 4646 50  0000 L CNN
+F 1 "74LS08" H 3680 4555 50  0000 L CNN
+F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 3450 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 3450 4600 50  0001 C CNN
+	5    3450 4600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -684,25 +684,6 @@ Text GLabel 2300 7050 3    50   Input ~ 0
 5V
 Text GLabel 2300 6250 1    50   Input ~ 0
 PWR_GND
-$Comp
-L Device:R_Small R1
-U 1 1 5F079FC0
-P 1050 6800
-F 0 "R1" H 1109 6846 50  0000 L CNN
-F 1 "470R" H 1109 6755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1050 6800 50  0001 C CNN
-F 3 "~" H 1050 6800 50  0001 C CNN
-	1    1050 6800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1050 6700 1050 6650
-Text GLabel 1150 6950 2    50   Input ~ 0
-5V
-Wire Wire Line
-	1150 6950 1050 6950
-Wire Wire Line
-	1050 6950 1050 6900
 $Comp
 L Device:R_POT_Small RV1
 U 1 1 5F079FCD
@@ -756,24 +737,24 @@ Wire Wire Line
 Connection ~ 2300 7000
 Wire Wire Line
 	2300 7000 2300 7050
-Text GLabel 2150 4150 2    50   Input ~ 0
+Text GLabel 1950 4100 2    50   Input ~ 0
 5V
-Text GLabel 2150 5150 2    50   Input ~ 0
+Text GLabel 1950 5100 2    50   Input ~ 0
 PWR_GND
-Text GLabel 3550 4150 2    50   Input ~ 0
+Text GLabel 3450 4050 2    50   Input ~ 0
 5V
-Text GLabel 3600 5250 2    50   Input ~ 0
+Text GLabel 3500 5150 2    50   Input ~ 0
 PWR_GND
 Wire Wire Line
-	2150 4250 2150 4150
+	1950 4200 1950 4100
 Wire Wire Line
-	2150 5050 2150 5150
-Text GLabel 1500 5150 2    50   Input ~ 0
+	1950 5000 1950 5100
+Text GLabel 1400 4950 2    50   Input ~ 0
 PWR_GND
 Wire Wire Line
-	1500 4450 1500 4350
+	1400 4250 1400 4150
 Wire Wire Line
-	1500 5050 1500 5150
+	1400 4850 1400 4950
 Text GLabel 7500 5250 2    50   Input ~ 0
 5V
 $Comp
@@ -1120,19 +1101,8 @@ Wire Wire Line
 Connection ~ 9800 4000
 Wire Wire Line
 	10250 4200 10300 4200
-Text GLabel 1500 4350 2    50   Input ~ 0
+Text GLabel 1400 4150 2    50   Input ~ 0
 5V
-$Comp
-L Device:D_Schottky_Small D1
-U 1 1 5F079FBA
-P 1050 6550
-F 0 "D1" H 1050 6437 50  0000 C CNN
-F 1 "BAV103" V 1095 6618 50  0001 L CNN
-F 2 "Diode_SMD:D_MiniMELF" V 1050 6550 50  0001 C CNN
-F 3 "~" V 1050 6550 50  0001 C CNN
-	1    1050 6550
-	0    1    1    0   
-$EndComp
 $Comp
 L 74xx:74LS32 U1
 U 5 1 5F7A156A
@@ -1153,19 +1123,19 @@ Wire Wire Line
 Wire Wire Line
 	850  4100 900  4100
 Wire Wire Line
-	3550 5200 3550 5250
+	3450 5100 3450 5150
 Wire Wire Line
-	3550 5250 3600 5250
+	3450 5150 3500 5150
 Wire Wire Line
-	3550 4200 3550 4150
-Text GLabel 2900 4100 2    50   Input ~ 0
+	3450 4100 3450 4050
+Text GLabel 2700 4100 2    50   Input ~ 0
 5V
-Text GLabel 2900 5100 2    50   Input ~ 0
+Text GLabel 2700 5100 2    50   Input ~ 0
 PWR_GND
 Wire Wire Line
-	2900 4200 2900 4100
+	2700 4200 2700 4100
 Wire Wire Line
-	2900 5000 2900 5100
+	2700 5000 2700 5100
 $Comp
 L 74xx:74LS08 U8
 U 4 1 5F918F14
@@ -1213,12 +1183,12 @@ $EndComp
 $Comp
 L 74xx:74HC74 U5
 U 3 1 619D29D1
-P 2900 4600
-F 0 "U5" H 3130 4646 50  0000 L CNN
-F 1 "74LS74" H 3130 4555 50  0000 L CNN
-F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 2900 4600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 2900 4600 50  0001 C CNN
-	3    2900 4600
+P 2700 4600
+F 0 "U5" H 2930 4646 50  0000 L CNN
+F 1 "74LS74" H 2930 4555 50  0000 L CNN
+F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 2700 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 2700 4600 50  0001 C CNN
+	3    2700 4600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1301,12 +1271,12 @@ $EndComp
 $Comp
 L 74xx:74HC74 U3
 U 3 1 5F0F47CC
-P 2150 4650
-F 0 "U3" H 2380 4696 50  0000 L CNN
-F 1 "74LS74" H 2380 4605 50  0000 L CNN
-F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 2150 4650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 2150 4650 50  0001 C CNN
-	3    2150 4650
+P 1950 4600
+F 0 "U3" H 2180 4646 50  0000 L CNN
+F 1 "74LS74" H 2180 4555 50  0000 L CNN
+F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 1950 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 1950 4600 50  0001 C CNN
+	3    1950 4600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1334,22 +1304,22 @@ $EndComp
 $Comp
 L 74xx:74LS08 U8
 U 5 1 61F18708
-P 4350 4650
-F 0 "U8" H 4580 4696 50  0000 L CNN
-F 1 "74LS08" H 4580 4605 50  0000 L CNN
-F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 4350 4650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 4350 4650 50  0001 C CNN
-	5    4350 4650
+P 4200 4600
+F 0 "U8" H 4430 4646 50  0000 L CNN
+F 1 "74LS08" H 4430 4555 50  0000 L CNN
+F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 4200 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 4200 4600 50  0001 C CNN
+	5    4200 4600
 	1    0    0    -1  
 $EndComp
-Text GLabel 4350 4100 2    50   Input ~ 0
+Text GLabel 4200 4050 2    50   Input ~ 0
 5V
 Wire Wire Line
-	4350 5150 4350 5200
+	4200 5100 4200 5150
 Wire Wire Line
-	4350 5200 4400 5200
+	4200 5150 4250 5150
 Wire Wire Line
-	4350 4150 4350 4100
+	4200 4100 4200 4050
 Wire Wire Line
 	6250 4800 7150 4800
 Wire Wire Line
@@ -1392,7 +1362,7 @@ Text GLabel 3350 6900 0    50   Input ~ 0
 PWR_GND
 Text GLabel 1050 6350 1    50   Input ~ 0
 PWR_GND
-Text GLabel 4400 5200 2    50   Input ~ 0
+Text GLabel 4250 5150 2    50   Input ~ 0
 PWR_GND
 $Comp
 L Connector:Screw_Terminal_01x06 J1
@@ -2240,12 +2210,6 @@ Wire Wire Line
 	1050 6400 1700 6400
 Wire Wire Line
 	1700 6400 1700 6450
-Connection ~ 1050 6400
-Wire Wire Line
-	1050 6400 1050 6450
-Wire Wire Line
-	1050 6650 1700 6650
-Connection ~ 1050 6650
 $Comp
 L Diode:BZX84Cxx D8
 U 1 1 5F25156C
@@ -2572,4 +2536,124 @@ Wire Wire Line
 Connection ~ 9950 4000
 Wire Wire Line
 	9950 4000 10000 4000
+$Comp
+L Amplifier_Operational:LM2904 U9
+U 1 1 5F317FCB
+P 1000 6650
+F 0 "U9" H 1000 7017 50  0000 C CNN
+F 1 "LM2904" H 1000 6926 50  0000 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 1000 6650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm358.pdf" H 1000 6650 50  0001 C CNN
+	1    1000 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM2904 U9
+U 3 1 5F319C5B
+P 1000 3850
+F 0 "U9" V 675 3850 50  0000 C CNN
+F 1 "LM2904" V 766 3850 50  0000 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 1000 3850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm358.pdf" H 1000 3850 50  0001 C CNN
+	3    1000 3850
+	0    1    1    0   
+$EndComp
+Text GLabel 1300 3750 2    50   Input ~ 0
+5V
+Text GLabel 700  3750 3    50   Input ~ 0
+PWR_GND
+$Comp
+L Device:R_Small R45
+U 1 1 5F4D3115
+P 600 6900
+F 0 "R45" H 541 6854 50  0000 R CNN
+F 1 "91k" H 541 6945 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 600 6900 50  0001 C CNN
+F 3 "~" H 600 6900 50  0001 C CNN
+	1    600  6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R47
+U 1 1 5F4E267C
+P 1050 6950
+F 0 "R47" V 1246 6950 50  0000 C CNN
+F 1 "6.2k" V 1155 6950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1050 6950 50  0001 C CNN
+F 3 "~" H 1050 6950 50  0001 C CNN
+	1    1050 6950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1150 6950 1350 6950
+Wire Wire Line
+	1350 6950 1350 6650
+Wire Wire Line
+	1300 6650 1350 6650
+Connection ~ 1350 6650
+Wire Wire Line
+	1350 6650 1700 6650
+Wire Wire Line
+	650  6950 650  6750
+Wire Wire Line
+	650  6750 700  6750
+Wire Wire Line
+	650  6950 950  6950
+Wire Wire Line
+	650  6750 600  6750
+Wire Wire Line
+	600  6750 600  6800
+Connection ~ 650  6750
+Text GLabel 600  7000 2    50   Input ~ 0
+VBAT
+$Comp
+L Device:R_Small R1
+U 1 1 5F55F3EA
+P 550 6400
+F 0 "R1" H 491 6354 50  0000 R CNN
+F 1 "15k" H 491 6445 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 550 6400 50  0001 C CNN
+F 3 "~" H 550 6400 50  0001 C CNN
+	1    550  6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R46
+U 1 1 5F5A7792
+P 650 6400
+F 0 "R46" H 591 6354 50  0000 R CNN
+F 1 "9.1k" H 591 6445 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 650 6400 50  0001 C CNN
+F 3 "~" H 650 6400 50  0001 C CNN
+	1    650  6400
+	-1   0    0    1   
+$EndComp
+Text GLabel 550  6300 1    50   Input ~ 0
+5V
+Text GLabel 650  6300 1    50   Input ~ 0
+PWR_GND
+Wire Wire Line
+	550  6500 550  6550
+Wire Wire Line
+	550  6550 650  6550
+Wire Wire Line
+	650  6500 650  6550
+Connection ~ 650  6550
+Wire Wire Line
+	650  6550 700  6550
+$Comp
+L Amplifier_Operational:LM2904 U?
+U 2 1 5F7AED14
+P 1600 5700
+F 0 "U?" H 1600 6067 50  0000 C CNN
+F 1 "LM2904" H 1600 5976 50  0000 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 1600 5700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm358.pdf" H 1600 5700 50  0001 C CNN
+	2    1600 5700
+	1    0    0    -1  
+$EndComp
+Text GLabel 1300 5600 0    50   Input ~ 0
+PWR_GND
+Text GLabel 1300 5800 0    50   Input ~ 0
+PWR_GND
 $EndSCHEMATC
