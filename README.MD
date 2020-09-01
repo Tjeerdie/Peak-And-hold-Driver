@@ -5,14 +5,14 @@ This design is specific to work with LPG injectors but could be used for any oth
 
 The design is Kicad. So to see the schematic or to adjust the deisgn to your liking open the Kicad project.<br/>
 
-Latest release is V0.3.<br/>
- __IMPORANT NOTE: Board V0.3 is not tested yet!! Order on your own risk__ <br/>
+Latest release is V0.3.1<br/>
+ __IMPORANT NOTE: Board V0.3.1 is not tested yet!! Order on your own risk__ <br/>
 
 __specifications:__
 - Max peak current 6A<br/>
-- Max continuous hold current 3A<br/>
+- Max continuous hold current 1.8A<br/>
 - Hold PWM duty cycle 5%-60%<br/>
-- PWM frequency 20khz<br/>
+- PWM frequency 7khz<br/>
 - 4 Individual injector channels<br/>
 
 ## Getting Started
@@ -58,9 +58,8 @@ Power on the board. Led must be lit when powered.<br/>
 5. If it is possible in your setup or on a bench, connect __injector channel 1 IN__ to the __Power -__ use a multi-meter in series with your connected injector on channel 1 to measure the current. This must be close the the set current. If this is not correct adjust __RV1__ accordingly <br/>
 
 ### Direct microcontroller input
-It is possible to use the board directly with an microcontroller. (non inverted inputs) The board inputs are 3.3V and 5V safe. To do this, with a sharp object scratch the bridge between __pin 1__ and __pin 2__ of __JP1__ to __JP4__ on the back of the board. Use a multi-meter to double check the connection is broken. Use a soldering iron and a bit of solder to connect __pin 3__ and __pin 2__ for __JP1__ to __JP4__.<br/> 
+It is possible to use the board directly with an microcontroller. (non inverted inputs) The board inputs are 3.3V and 5V safe. To do this, with a sharp object scratch the bridge between __pin 1__ and __pin 2__ of __JP1__, __JP2__, __JP3__, __JP4__ on the back of the board. Use a multi-meter to double check the connection is broken. Use a soldering iron and a bit of solder to connect __pin 3__ and __pin 2__ for __JP1__ to __JP4__. Remove R8, R25, R11, R28 from the board<br/> 
        
-
 ## Simulation	
 An LTspice simulation of PWM peak and hold drivers is also in the LTspice folder. It is a good learning experience to see the wave forms and the current thru the coil. This also shows the maximum voltage level expected on the mosfets. This can be significant voltage levels depdending on the clamping voltage of the main driver. <br/>
 
