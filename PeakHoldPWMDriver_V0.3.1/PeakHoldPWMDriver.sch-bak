@@ -1332,8 +1332,6 @@ Text GLabel 1100 1400 0    50   Output ~ 0
 VBAT_IN
 Text GLabel 1100 1300 0    50   Output ~ 0
 PWR_GND
-Text GLabel 5000 2300 3    50   Input ~ 0
-PWR_GND
 Text GLabel 1100 1200 0    50   Input ~ 0
 INJ1
 Text GLabel 1100 1100 0    50   Input ~ 0
@@ -1586,24 +1584,8 @@ F 3 "~" H 5200 6900 50  0001 C CNN
 	1    5200 6900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Speeduino_base-eagle-import:CERAMIC-220NF-25V-10%-X7R(0603) C9
-U 1 1 5F2FE71A
-P 5350 6800
-F 0 "C9" H 5200 6850 42  0000 L BNN
-F 1 "220nf" H 5200 6700 42  0000 L BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5350 6800 50  0001 C CNN
-F 3 "" H 5350 6800 50  0001 C CNN
-	1    5350 6800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2650 6600 3050 6600
-Connection ~ 5200 6800
-Text GLabel 5600 6800 2    50   Input ~ 0
-PWR_GND
-Wire Wire Line
-	5500 6800 5600 6800
 Wire Wire Line
 	5200 6500 5200 6800
 Wire Wire Line
@@ -1713,17 +1695,6 @@ Wire Wire Line
 	5800 4600 5850 4600
 Wire Wire Line
 	5650 1800 6000 1800
-$Comp
-L Diode:BAT54S D5
-U 1 1 5F5E142C
-P 5000 2000
-F 0 "D5" V 5046 2088 50  0000 L CNN
-F 1 "BAT54S" V 4955 2088 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5075 2125 50  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 4880 2000 50  0001 C CNN
-	1    5000 2000
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	5650 1800 5650 2000
 $Comp
@@ -1761,10 +1732,6 @@ F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5400 2000 50  0001 
 	1    5400 2000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5000 1700 5000 1650
-Wire Wire Line
-	5000 1650 5200 1650
 Connection ~ 5200 1650
 Wire Wire Line
 	5200 1650 5200 1700
@@ -1887,21 +1854,8 @@ F 3 "~" H 5350 5000 50  0001 C CNN
 	1    5350 5000
 	1    0    0    -1  
 $EndComp
-Text GLabel 8300 5200 3    50   Input ~ 0
-PWR_GND
 Text GLabel 8500 5200 3    50   Input ~ 0
 INJ4
-$Comp
-L Diode:BAT54S D14
-U 1 1 5F51A6ED
-P 8300 4900
-F 0 "D14" V 8346 4988 50  0000 L CNN
-F 1 "BAT54S" V 8255 4988 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8375 5025 50  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 8180 4900 50  0001 C CNN
-	1    8300 4900
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:R_Small R28
 U 1 1 5F51A6F3
@@ -1937,10 +1891,6 @@ F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 8700 4900 50  0001 
 	1    8700 4900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8300 4600 8300 4550
-Wire Wire Line
-	8300 4550 8500 4550
 Connection ~ 8500 4550
 Wire Wire Line
 	8500 4550 8500 4600
@@ -1974,21 +1924,8 @@ F 3 "~" H 8500 5100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8750 1800 8750 2000
-Text GLabel 8100 2300 3    50   Input ~ 0
-PWR_GND
 Text GLabel 8300 2350 3    50   Input ~ 0
 INJ2
-$Comp
-L Diode:BAT54S D13
-U 1 1 5F5596B9
-P 8100 2000
-F 0 "D13" V 8146 2088 50  0000 L CNN
-F 1 "BAT54S" V 8055 2088 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8175 2125 50  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 7980 2000 50  0001 C CNN
-	1    8100 2000
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:R_Small R25
 U 1 1 5F5596BF
@@ -2024,10 +1961,6 @@ F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 8500 2000 50  0001 
 	1    8500 2000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8100 1700 8100 1650
-Wire Wire Line
-	8100 1650 8300 1650
 Connection ~ 8300 1650
 Wire Wire Line
 	8300 1650 8300 1700
@@ -2571,4 +2504,55 @@ F 3 "~" H 5500 1600 50  0001 C CNN
 	1    5500 1600
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	8300 4550 8500 4550
+Wire Wire Line
+	8300 4600 8300 4550
+$Comp
+L Diode:BAT54S D14
+U 1 1 5F51A6ED
+P 8300 4900
+F 0 "D14" V 8346 4988 50  0000 L CNN
+F 1 "BAT54S" V 8255 4988 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8375 5025 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 8180 4900 50  0001 C CNN
+	1    8300 4900
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8300 5200 3    50   Input ~ 0
+PWR_GND
+Wire Wire Line
+	8100 1650 8300 1650
+Wire Wire Line
+	8100 1700 8100 1650
+$Comp
+L Diode:BAT54S D13
+U 1 1 5F5596B9
+P 8100 2000
+F 0 "D13" V 8146 2088 50  0000 L CNN
+F 1 "BAT54S" V 8055 2088 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8175 2125 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 7980 2000 50  0001 C CNN
+	1    8100 2000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8100 2300 3    50   Input ~ 0
+PWR_GND
+Wire Wire Line
+	5000 1650 5200 1650
+Wire Wire Line
+	5000 1700 5000 1650
+$Comp
+L Diode:BAT54S D5
+U 1 1 5F5E142C
+P 5000 2000
+F 0 "D5" V 5046 2088 50  0000 L CNN
+F 1 "BAT54S" V 4955 2088 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5075 2125 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 4880 2000 50  0001 C CNN
+	1    5000 2000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5000 2300 3    50   Input ~ 0
+PWR_GND
 $EndSCHEMATC
