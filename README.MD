@@ -9,8 +9,9 @@ Latest release is V0.3.1<br/>
  __IMPORANT NOTE: Board V0.3.1 is not tested yet!! Order on your own risk__ <br/>
 
 __specifications:__
-- Max peak current ~6A<br/>
-- Max continuous hold current ~2A<br/>
+- Max peak current ~4A<br/>
+- Max continuous hold current ~1A (No extra cooling)<br/>
+- Max continuous hold current ~2A (With extra cooling)<br/>
 - Hold PWM duty cycle 5%-95%<br/>
 - PWM frequency 7khz<br/>
 - 4 Individual injector channels<br/>
