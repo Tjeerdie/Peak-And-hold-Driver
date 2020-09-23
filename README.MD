@@ -3,21 +3,22 @@ The peak and hold project started because I could not find an open-source PWM pe
 <br/>
 This design is specific to work with LPG injectors but could be used for any other low-Z injectors like TBI type and other high flow injectors. It could even be used for any coil type actuator like relays or valves <br/>
 
-The design is done in Kicad. So to see the schematic or to adjust the design to your liking open the Kicad project.<br/>
+The board is designed in Kicad. So to see the schematic or to adjust the design to your liking open the Kicad project.<br/>
 
 Latest release is V0.3.1<br/>
- __IMPORANT NOTE: Board V0.3.1 is not tested yet!! Order on your own risk__ <br/>
+ __IMPORANT NOTE: Board V0.3.1 is not tested yet!! A modified V0.3 is used for bench testing the V0.3.1 schematic. No car runs on it yet<br/>
 
 __specifications:__
-- Max peak current ~4A<br/>
+- Max peak current ~5A<br/>
 - Max continuous hold current ~1A (No extra cooling)<br/>
 - Max continuous hold current ~2A (With extra cooling)<br/>
 - Hold PWM duty cycle 5%-95%<br/>
 - PWM frequency 7khz<br/>
 - 4 Individual injector channels<br/>
+- Peak and hold current are adjustable
 
 ## Getting Started
-This section explains all we need to do to setup a fabricated board
+This section explains all we need to do to setup a fabricated PCB
 
 ### Get all the parts
 1. Order the PCB. For example use https://www.pcbway.com/ or https://jlcpcb.com/ Upload the PeakHoldPWMDriver_V0.x.y.zip located in the gebers folder and order the design.<br/>
@@ -48,18 +49,18 @@ __Connector J2__
 Power on the board. Led must be lit when powered.<br/>
 
 ### Set the PEAK current
-1. Measure __TP1__ and use __RV2__ to set to value needed. 100mv = 1A<br/>
-2. Make sure this PEAK current is not too close to the maximum current. If that is the case you run the risk the peak current is never reached and the HOLD current is never set. Max peak current = 10.0[V] / R-inj[Ohm]<br/>
+1. Measure __TP1__ and use __RV2__ to set to value needed. 100mV = 1A<br/>
+2. Make sure this PEAK current is not too close to the maximum current. If that is the case you run the risk the peak current is never reached and the HOLD current is never set. Maximum advised peak current = 10.0[V] / R-inj[Ohm]<br/>
 
 ### Set the HOLD current
 1. Measure the resistance of the injector(s) per channel (R-inj)[Ohm]. <br/>
 2. Find the hold current needed for the injector in the datasheet. Usually about 50% to 25% of the peak current would be enough<br/>
 3. Calculate the duty cycle needed using: ((R-inj + 0.20)* HoldCurrent)/2,4<br/>
 4. Measure __TP2__ and use __RV1__ to set it to voltage calculated in step 3.<br/>
-5. If it is possible in your setup or on a bench, connect __injector channel 1 IN__ to the __Power -__ use a multi-meter in series with your connected injector on channel 1 to measure the current. This must be close the the set current. If this is not correct adjust __RV1__ accordingly <br/>
+5. If it is possible in your setup or on a bench, connect __injector channel 1 IN__ to the __Power -__ use a multi-meter in series with your connected injector on channel 1 to measure the current. This must be close the the set current. If this is not correct adjust __RV1__ accordingly. Be careful when doing this test! When fuel pressure is present during testing the injector under test wil spray (a lot) of fuel! Its best to test with not pressurised injectors<br/>
 
 ### Direct microcontroller input
-It is possible to use the board directly with an microcontroller. (non inverted inputs) The board inputs are designed for 5V. 3.3V works but is on the edge so any voltage drop will ruin the working. <br/>
+It is possible to use the board directly with an microcontroller. (non inverted inputs) The board inputs are designed for 5V. 3.3V can work but is on the edge so any voltage drop or temperature change may make it stop working correctly. <br/>
 
 With a sharp object scratch the bridge between __pin 1__ and __pin 2__ of __JP1__, __JP2__, __JP3__, __JP4__ on the back of the board. Use a multi-meter to double check the connection is broken. Use a soldering iron and a bit of solder to connect __pin 3__ and __pin 2__ for __JP1__ to __JP4__. The second step is to remove R8, R25, R11, R28 from the board<br/> 
        
