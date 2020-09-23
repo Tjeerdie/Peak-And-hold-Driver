@@ -6,8 +6,7 @@ This design is specific to work with LPG injectors but could be used for any oth
 The board is designed in Kicad. So to see the schematic or to adjust the design to your liking open the Kicad project.<br/>
 
 Latest release is V0.3.1<br/>
- __IMPORANT NOTE: Board V0.3.1 is not tested yet!! A modified V0.3 is used for bench testing the V0.3.1 schematic. No car runs on it yet<br/>
-
+___IMPORANT NOTE: Board V0.3.1 is not tested yet!! A modified V0.3 is used for bench testing the V0.3.1 schematic. No car runs on it yet<br/>
 __specifications:__
 - Max peak current ~5A<br/>
 - Max continuous hold current ~1A (No extra cooling)<br/>
