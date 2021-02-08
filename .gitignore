@@ -1,2 +1,3 @@
-
+*.kicad_pcb-bak
 *.raw
+*.sch-bak
