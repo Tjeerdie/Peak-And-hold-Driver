@@ -1,12 +1,14 @@
 # Project PWM peak and hold injector driver
-The peak and hold project started because I could not find an open-source PWM peak and hold injector driver for low-Z injectors. For low-z injectors normally resistors in series with the injectors are used. But resistors create a lot of heat and are not very adjustable. I still do encourage everyone to use resistors if possible because the results are good and resistors have less components that can be broken<br/>
+The peak and hold project started because I could not find an open-source PWM peak and hold injector driver for low-Z injectors. For low-z injectors normally resistors in series with the injectors are used. But resistors create a lot of heat and are not very adjustable. 
+
+I still do encourage everyone to use resistors if possible because the results are good and resistors have less components that can fail<br/>
 <br/>
 This design is specific to work with LPG injectors but could be used for any other low-Z injectors like TBI type and other high flow injectors. It could even be used for any coil type actuator like relays or valves <br/>
 
 The board is designed in Kicad. So to see the schematic or to adjust the design to your liking open the Kicad project.<br/>
 
 Latest release is V0.3.1<br/>
-__IMPORANT NOTE: Board V0.3.1 is not tested yet!! A modified V0.3 is used for bench testing the V0.3.1 schematic. No car runs on it yet__<br/>
+__IMPORANT NOTE: Board V0.3.1 is not tested yet!! A modified V0.3 is used for bench testing the V0.3.1 schematic. I did not test the board on a car yet__<br/>
 __specifications:__
 - Max peak current ~5A<br/>
 - Max continuous hold current ~1A (No extra cooling)<br/>
